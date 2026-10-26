@@ -1,13 +1,13 @@
 # XomSom
 
-> XomSom — quảng cáo miễn phí 24 giờ theo khu vực (dòng chảy quảng cáo): đăng tin sản phẩm, dịch vụ, việc làm, cho thuê, sự kiện miễn phí — tin hiện ngẫu nhiên cho người xem đúng quốc gia, tỉnh thành, phường xã và lĩnh vực. Xem không cần tài khoản, tìm bằng tiếng Việt có dấu, không dấu hoặc tiếng Anh.
+> XomSom — đăng tin quảng cáo miễn phí 24 giờ theo khu vực: cho thuê phòng trọ, mặt bằng, tuyển dụng việc làm, bán đồ cũ, xe máy, quảng cáo quán ăn, dịch vụ, sự kiện. Tin hiện cho người xem đúng tỉnh thành, phường xã và 21 lĩnh vực. Xem không cần tài khoản, tìm bằng tiếng Việt có dấu, không dấu hoặc tiếng Anh.
 
 XomSom (xomsom.com) ("Quảng cáo miễn phí" — free ads; also called a "dòng chảy quảng cáo", an ad flow) is a free 24-hour local ad board for Vietnam and other countries. Posts (products, services, events, jobs, rentals) run for 24 hours and are shown one by one, at random, to viewers of the chosen country / province / ward and industry, in the Atom web app, which is the home page itself. Viewing needs no account; posting is free (up to 3 running posts per account). Search understands Vietnamese with or without diacritics, and English.
 
 ## Pages
 
-- [Quảng cáo miễn phí 24 giờ quanh bạn — dòng chảy quảng cáo Atom](https://xomsom.com/): Xem tin sản phẩm, dịch vụ, việc làm, cho thuê và sự kiện đang chạy quanh bạn — chọn quốc gia, tỉnh thành, phường xã, lọc theo lĩnh vực, tìm bằng tiếng Việt hoặc tiếng Anh. Đăng tin miễn phí, chạy 24 giờ.
-- [Giới thiệu XomSom](https://xomsom.com/atom/): Đăng tin quảng cáo miễn phí 24 giờ theo tỉnh thành, phường xã
+- [Phòng trọ, việc làm, mua bán quanh bạn — đăng tin miễn phí](https://xomsom.com/): Xem tin cho thuê phòng trọ, việc làm, mua bán đồ cũ, dịch vụ và sự kiện đang chạy quanh bạn — chọn tỉnh thành, phường xã, lọc theo 21 lĩnh vực, tìm bằng tiếng Việt hoặc tiếng Anh. Đăng tin miễn phí, chạy 24 giờ.
+- [Giới thiệu XomSom](https://xomsom.com/atom/): Đăng tin miễn phí: cho thuê, tuyển dụng, mua bán theo phường xã
 - [Điều khoản sử dụng & quy định đăng tin XomSom](https://xomsom.com/atom/legal/terms/): XomSom (xomsom.com) và bảng tin Atom (xomsom.com/atom) là nơi đăng tin quảng cáo ngắn hạn do CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ THÔNG TIN GOLDEN KEY ("chúng tôi") vận hành: mỗi tin sản phẩm, dịch vụ, sự kiện, việc làm hay cho thuê chạy trong 24 giờ và hiện ngẫu nhiên cho người xem theo nơi chốn và lĩnh vực. Khi xem hoặc đăng tin, bạn đồng ý với các điều khoản này và Chính sách quyền riêng tư của XomSom.
 - [Chính sách quyền riêng tư XomSom](https://xomsom.com/atom/legal/privacy/): Chính sách này giải thích XomSom (xomsom.com) và bảng tin Atom thu thập, hiển thị, lưu giữ và xoá dữ liệu nào. Chúng tôi chỉ dùng dữ liệu để vận hành bảng tin — không bán dữ liệu và không dùng cho quảng cáo theo dõi.
 
@@ -20,6 +20,38 @@ XomSom (xomsom.com) ("Quảng cáo miễn phí" — free ads; also called a "dò
 - Cards show 12 seconds each; the next opens at the halfway mark; ⏸ keeps a card.
 - Price: free to post and to view. No third-party tracking ads.
 - Operator: GOLDEN KEY IT SOLUTIONS JOINT STOCK COMPANY — 670 Đoàn Văn Bơ, Khu phố 16, Phường Xóm Chiếu, TP. HCM. Contact: kimthiendung@gmail.com.
+
+## Loại tin
+
+- **Sản phẩm** (Product) — Bán hàng mới, hàng thanh lý, đồ cũ, đặc sản vùng miền — kèm giá, tối đa 6 ảnh và 1 video.
+- **Dịch vụ** (Service) — Sửa chữa, làm đẹp, gia sư, chuyển nhà, giao hàng… người quanh bạn thấy đúng lúc họ cần.
+- **Sự kiện** (Event) — Khai trương, khuyến mãi, hội chợ, workshop, chợ phiên — tin 24 giờ hợp với việc sắp diễn ra.
+- **Việc làm** (Job) — Tuyển gấp, việc thời vụ, bán thời gian, việc gần nhà — lọc theo phường xã để người ở gần thấy trước.
+- **Cho thuê** (For rent) — Phòng trọ, nhà nguyên căn, căn hộ, mặt bằng, xe, thiết bị — kèm địa chỉ và ghim bản đồ mở được Google Maps.
+
+## Lĩnh vực
+
+- **Thực phẩm & đồ uống** (Food & beverage) — Quán ăn, quán cà phê, trà sữa, đồ ăn vặt, cơm văn phòng, bánh kem đặt làm, đặc sản vùng miền, giao đồ ăn tận nơi.
+- **Hàng tiêu dùng nhanh** (FMCG) — Tạp hoá, nhu yếu phẩm, sữa, bỉm, nước giặt, đồ dùng gia đình, hàng sỉ cho đại lý.
+- **Mỹ phẩm & làm đẹp** (Beauty) — Spa, salon tóc, làm nail, mỹ phẩm, chăm sóc da, gội đầu dưỡng sinh, trang điểm cô dâu.
+- **Dệt may & thời trang** (Fashion & textile) — Quần áo, giày dép, túi xách, đồ si, may đo, sửa đồ, vải sỉ, đồng phục.
+- **Bán lẻ & TMĐT** (Retail & e-commerce) — Cửa hàng, shop online, xả kho, thanh lý, khai trương giảm giá, đồ cũ giá rẻ.
+- **Công nghệ & phần mềm** (Technology) — Thiết kế website, phần mềm, ứng dụng, dịch vụ IT, cài đặt máy tính, tuyển lập trình viên.
+- **Điện tử & viễn thông** (Electronics & telecom) — Điện thoại, laptop, đồ điện tử cũ, sửa điện thoại, lắp internet, camera an ninh.
+- **Tài chính & ngân hàng** (Finance) — Bảo hiểm, kế toán, dịch vụ thuế, tư vấn tài chính, sản phẩm ngân hàng.
+- **BĐS & xây dựng** (Real estate & construction) — Cho thuê phòng trọ, căn hộ, nhà nguyên căn, mặt bằng kinh doanh, mua bán nhà đất, sửa nhà, xây dựng, vật liệu xây dựng.
+- **Y tế & dược** (Healthcare & pharma) — Phòng khám, nha khoa, nhà thuốc, vật lý trị liệu, chăm sóc người già tại nhà, thiết bị y tế.
+- **Giáo dục** (Education) — Gia sư tại nhà, trung tâm tiếng Anh, luyện thi, lớp kỹ năng, lớp năng khiếu cho bé.
+- **Du lịch & khách sạn** (Tourism & hospitality) — Khách sạn, homestay, nhà nghỉ, tour du lịch, vé máy bay, thuê xe đi chơi.
+- **Ô tô & xe máy** (Automotive) — Mua bán ô tô, xe máy cũ, sửa xe, rửa xe, phụ tùng, cho thuê xe tự lái, học lái xe.
+- **Nông nghiệp** (Agriculture) — Nông sản, trái cây theo mùa, cây giống, phân bón, thuỷ hải sản, gà vịt, đặc sản quê.
+- **Logistics & vận tải** (Logistics) — Chuyển nhà, xe tải chở hàng, giao hàng nhanh, gửi hàng đi tỉnh, kho bãi.
+- **Bao bì & in ấn** (Packaging & printing) — In tờ rơi, danh thiếp, bao bì, hộp giấy, túi in logo, biển quảng cáo.
+- **Nội thất & gia dụng** (Furniture & home) — Nội thất, giường tủ, bàn ghế, đồ gia dụng cũ, điện máy, sửa điện nước, vệ sinh nhà cửa.
+- **Năng lượng & môi trường** (Energy & environment) — Điện mặt trời, máy lọc nước, thu mua phế liệu, thu gom rác tái chế, cây xanh.
+- **Sản xuất & cơ khí** (Manufacturing) — Xưởng gia công, cơ khí, hàn tiện, đồ gỗ, nhận đơn sản xuất, tuyển công nhân.
+- **Dịch vụ chuyên nghiệp** (Professional services) — Dịch thuật, công chứng, tư vấn luật, thiết kế, chụp ảnh, tổ chức sự kiện, giúp việc, sửa chữa tại nhà.
+- **Khác** (Other) — Mọi tin còn lại: tìm đồ thất lạc, cho tặng, trao đổi đồ, thú cưng, hoạt động cộng đồng.
 
 ## Cách đăng tin
 
@@ -55,6 +87,26 @@ Chọn đúng địa chỉ (tới phường xã) và lĩnh vực khi đăng. Ng�
 ### Tìm kiếm có hiểu tiếng Việt không dấu và tiếng Anh không?
 
 Có. "Hồ Chí Minh", "ho chi minh", "bán lẻ", "ban le" và "retail" đều khớp — loại tin, lĩnh vực và tên nơi được lưu cả bằng tiếng Việt lẫn tiếng Anh. Phím tắt ⌘K / Ctrl+K.
+
+### Đăng tin cho thuê phòng trọ, nhà, mặt bằng miễn phí ở đâu?
+
+Trên XomSom: chọn loại tin "Cho thuê", lĩnh vực "BĐS & xây dựng", nhập địa chỉ tới phường xã và ghim bản đồ. Tin hiện 24 giờ cho người đang xem đúng khu vực đó, miễn phí; người thuê gọi hoặc nhắn Zalo thẳng cho bạn.
+
+### Đăng tin tuyển dụng, tìm việc làm gần nhà được không?
+
+Được. Loại tin "Việc làm" dành cho tuyển gấp, việc thời vụ, bán thời gian. Người tìm việc chọn phường xã nơi mình ở để thấy việc gần nhà trước, hoặc gõ tìm "tuyển", "phục vụ", "bán hàng", "giao hàng"…
+
+### Bán đồ cũ, thanh lý đồ, bán xe máy cũ ở đâu cho nhanh?
+
+Đăng tin "Sản phẩm" kèm giá và tối đa 6 ảnh, chọn đúng lĩnh vực (vd "Ô tô & xe máy", "Nội thất & gia dụng", "Điện tử & viễn thông"). Người quanh bạn thấy tin ngay trong 24 giờ và liên hệ trực tiếp — không qua trung gian, không mất phí.
+
+### Quảng cáo quán ăn, cửa hàng, dịch vụ gần đây miễn phí thế nào?
+
+Đăng tin "Dịch vụ", hoặc "Sự kiện" cho khai trương, khuyến mãi, kèm địa chỉ và ghim bản đồ. Người đang xem khu vực đó thấy tin và mở Google Maps chỉ đường tới bạn. Hết 24 giờ thì đăng lại trong "Tin của tôi".
+
+### XomSom có những lĩnh vực nào?
+
+21 lĩnh vực: Thực phẩm & đồ uống, Hàng tiêu dùng nhanh, Mỹ phẩm & làm đẹp, Dệt may & thời trang, Bán lẻ & TMĐT, Công nghệ & phần mềm, Điện tử & viễn thông, Tài chính & ngân hàng, BĐS & xây dựng, Y tế & dược, Giáo dục, Du lịch & khách sạn, Ô tô & xe máy, Nông nghiệp, Logistics & vận tải, Bao bì & in ấn, Nội thất & gia dụng, Năng lượng & môi trường, Sản xuất & cơ khí, Dịch vụ chuyên nghiệp, Khác.
 
 ### Máy yếu có xem được không?
 
