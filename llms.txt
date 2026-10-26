@@ -1,0 +1,65 @@
+# XomSom
+
+> XomSom — quảng cáo miễn phí 24 giờ theo khu vực (dòng chảy quảng cáo): đăng tin sản phẩm, dịch vụ, việc làm, cho thuê, sự kiện miễn phí — tin hiện ngẫu nhiên cho người xem đúng quốc gia, tỉnh thành, phường xã và lĩnh vực. Xem không cần tài khoản, tìm bằng tiếng Việt có dấu, không dấu hoặc tiếng Anh.
+
+XomSom (xomsom.com) ("Quảng cáo miễn phí" — free ads; also called a "dòng chảy quảng cáo", an ad flow) is a free 24-hour local ad board for Vietnam and other countries. Posts (products, services, events, jobs, rentals) run for 24 hours and are shown one by one, at random, to viewers of the chosen country / province / ward and industry, in the Atom web app, which is the home page itself. Viewing needs no account; posting is free (up to 3 running posts per account). Search understands Vietnamese with or without diacritics, and English.
+
+## Pages
+
+- [Quảng cáo miễn phí 24 giờ quanh bạn — dòng chảy quảng cáo Atom](https://xomsom.com/): Xem tin sản phẩm, dịch vụ, việc làm, cho thuê và sự kiện đang chạy quanh bạn — chọn quốc gia, tỉnh thành, phường xã, lọc theo lĩnh vực, tìm bằng tiếng Việt hoặc tiếng Anh. Đăng tin miễn phí, chạy 24 giờ.
+- [Giới thiệu XomSom](https://xomsom.com/atom/): Đăng tin quảng cáo miễn phí 24 giờ theo tỉnh thành, phường xã
+- [Điều khoản sử dụng & quy định đăng tin XomSom](https://xomsom.com/atom/legal/terms/): XomSom (xomsom.com) và bảng tin Atom (xomsom.com/atom) là nơi đăng tin quảng cáo ngắn hạn do CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ THÔNG TIN GOLDEN KEY ("chúng tôi") vận hành: mỗi tin sản phẩm, dịch vụ, sự kiện, việc làm hay cho thuê chạy trong 24 giờ và hiện ngẫu nhiên cho người xem theo nơi chốn và lĩnh vực. Khi xem hoặc đăng tin, bạn đồng ý với các điều khoản này và Chính sách quyền riêng tư của XomSom.
+- [Chính sách quyền riêng tư XomSom](https://xomsom.com/atom/legal/privacy/): Chính sách này giải thích XomSom (xomsom.com) và bảng tin Atom thu thập, hiển thị, lưu giữ và xoá dữ liệu nào. Chúng tôi chỉ dùng dữ liệu để vận hành bảng tin — không bán dữ liệu và không dùng cho quảng cáo theo dõi.
+
+## Key facts
+
+- Run time: 24 hours per post; expired posts kept 7 days for renewal, then deleted.
+- Limits: up to 3 running posts per account; up to 6 images and 1 video per post.
+- Kinds: product, service, event, job, rental. 21 industries.
+- Place: country → province → ward, plus street address and optional map pin (opens Google Maps).
+- Cards show 12 seconds each; the next opens at the halfway mark; ⏸ keeps a card.
+- Price: free to post and to view. No third-party tracking ads.
+- Operator: GOLDEN KEY IT SOLUTIONS JOINT STOCK COMPANY — 670 Đoàn Văn Bơ, Khu phố 16, Phường Xóm Chiếu, TP. HCM. Contact: kimthiendung@gmail.com.
+
+## Cách đăng tin
+
+1. **Đăng nhập** — Bấm nút tài khoản ở góc phải dưới. Xem tin thì không cần đăng nhập — chỉ người đăng mới cần.
+2. **Soạn tin** — Chọn loại tin và lĩnh vực, viết tiêu đề, mô tả, giá; thêm tối đa 6 ảnh, 1 video và cách liên hệ (điện thoại, Zalo, link).
+3. **Chọn nơi** — Quốc gia, tỉnh thành, phường xã và số nhà; ghim bản đồ nếu muốn. Tin hiện cho người đang xem đúng vùng đó.
+4. **Lên quảng cáo miễn phí** — Tin của bạn lần lượt hiện lên, xen ngẫu nhiên giữa các tin khác — suốt 24 giờ, không cần làm gì thêm.
+5. **Người xem liên hệ** — Người xem bấm thẻ để xem chi tiết, mở bản đồ, gọi hoặc nhắn Zalo trực tiếp cho bạn.
+6. **Đăng lại khi cần** — Trong "Tin của tôi": sửa, ẩn, chạy lại, đăng lại (thêm 24 giờ) hoặc xoá. Tin hết hạn giữ 7 ngày để đăng lại.
+
+## Câu hỏi thường gặp
+
+### XomSom là gì?
+
+XomSom là kênh quảng cáo miễn phí theo khu vực — một dòng chảy quảng cáo 24 giờ: tin sản phẩm, dịch vụ, sự kiện, việc làm, cho thuê chạy 24 giờ và hiện ngẫu nhiên, lần lượt cho người xem đúng quốc gia, tỉnh thành, phường xã và lĩnh vực — trong một "buồng nguyên tử" 3D gọi là Atom.
+
+### Đăng tin có mất phí không?
+
+Hiện tại đăng tin là miễn phí. Mỗi tài khoản có tối đa 3 tin đang chạy cùng lúc; tin đã ẩn hoặc hết hạn không tính.
+
+### Tin của tôi chạy bao lâu?
+
+Tin chạy 24 giờ kể từ lúc đăng rồi tự gỡ. Tin hết hạn được giữ 7 ngày trong "Tin của tôi" để bạn đăng lại thêm 24 giờ; sau đó bị xoá hẳn.
+
+### Xem tin có cần tài khoản không?
+
+Không. Mở xomsom.com là xem được ngay; chỉ đăng tin mới cần đăng nhập.
+
+### Làm sao để tin đến đúng người?
+
+Chọn đúng địa chỉ (tới phường xã) và lĩnh vực khi đăng. Người xem đang chọn vùng đó hoặc lọc lĩnh vực đó sẽ thấy tin bạn; họ cũng tìm được tin bằng từ khoá trong tiêu đề, mô tả, lĩnh vực hay tên nơi.
+
+### Tìm kiếm có hiểu tiếng Việt không dấu và tiếng Anh không?
+
+Có. "Hồ Chí Minh", "ho chi minh", "bán lẻ", "ban le" và "retail" đều khớp — loại tin, lĩnh vực và tên nơi được lưu cả bằng tiếng Việt lẫn tiếng Anh. Phím tắt ⌘K / Ctrl+K.
+
+### Máy yếu có xem được không?
+
+Được. Trong Bộ lọc có 3 mức hiển thị; chọn mức Thấp thì hình ảnh đơn giản hơn, máy chạy nhẹ hơn mà vẫn đủ tính năng.
+
+### Những tin nào bị cấm?
+
+Hàng cấm, hàng giả, lừa đảo, "việc nhẹ lương cao", nội dung khiêu dâm, bạo lực, xâm phạm bản quyền hay dữ liệu cá nhân của người khác, ngành nghề cần giấy phép mà không có giấy phép. Tin vi phạm bị gỡ — xem đầy đủ trong Điều khoản.
