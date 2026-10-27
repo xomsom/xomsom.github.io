@@ -1,23 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://xomsom.com/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://xomsom.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xomsom.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xomsom.com/"/>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://xomsom.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://xomsom.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xomsom.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xomsom.com/"/>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://xomsom.com/atom/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://xomsom.com/atom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xomsom.com/en/atom/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xomsom.com/atom/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://xomsom.com/en/atom/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://xomsom.com/atom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xomsom.com/en/atom/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xomsom.com/atom/"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://xomsom.com/atom/legal/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://xomsom.com/atom/legal/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xomsom.com/en/atom/legal/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xomsom.com/atom/legal/terms/"/>
+    <lastmod>2026-10-25T00:00:00.000Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://xomsom.com/en/atom/legal/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://xomsom.com/atom/legal/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xomsom.com/en/atom/legal/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xomsom.com/atom/legal/terms/"/>
     <lastmod>2026-10-25T00:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://xomsom.com/atom/legal/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://xomsom.com/atom/legal/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xomsom.com/en/atom/legal/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xomsom.com/atom/legal/privacy/"/>
+    <lastmod>2026-10-25T00:00:00.000Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://xomsom.com/en/atom/legal/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://xomsom.com/atom/legal/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xomsom.com/en/atom/legal/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xomsom.com/atom/legal/privacy/"/>
     <lastmod>2026-10-25T00:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>

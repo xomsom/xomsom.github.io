@@ -24,6 +24,34 @@
 <link rel="canonical" href="https://xomsom.com/atom/legal/terms/">
 
 
+<link rel="alternate" hreflang="vi" href="https://xomsom.com/atom/legal/terms/"><link rel="alternate" hreflang="en" href="https://xomsom.com/en/atom/legal/terms/">
+<link rel="alternate" hreflang="x-default" href="https://xomsom.com/atom/legal/terms/">
+
+<script>(function(){const langCookie = "en";
+
+			(function () {
+				// Đường dẫn bản ngôn ngữ `l` của trang đang mở — null nếu không có, hoặc chính là trang này.
+				const altPath = (l) => {
+					const link = l && document.querySelector('link[rel="alternate"][hreflang="' + l + '"]');
+					const path = link ? new URL(link.href).pathname : '';
+					const norm = (p) => p.replace(/\/$/, '') || '/';
+					return path && norm(path) !== norm(location.pathname) ? path : null;
+				};
+				const m = document.cookie.match(new RegExp('(?:^|; )' + langCookie + '=([^;]*)'));
+				let inSite = false;
+				try { inSite = new URL(document.referrer).origin === location.origin; } catch (e) {}
+				const saved = m && !inSite ? altPath(decodeURIComponent(m[1])) : null;
+				if (saved) return location.replace(saved + location.search + location.hash);
+				if (window.__langRoute) return;
+				window.__langRoute = true;
+				document.addEventListener('lang-change', function (e) {
+					const path = altPath(e.detail && e.detail.lang);
+					if (path) location.assign(path + location.hash);
+				});
+			})();
+		})();</script>
+
+
 
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","@id":"https://xomsom.com/#organization","name":"XomSom","url":"https://xomsom.com","logo":"https://xomsom.com/logo.avif","legalName":"CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ THÔNG TIN GOLDEN KEY","email":"kimthiendung@gmail.com","address":{"@type":"PostalAddress","streetAddress":"670 Đoàn Văn Bơ, Khu phố 16, Phường Xóm Chiếu","addressLocality":"Ho Chi Minh City","addressCountry":"VN"}}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Điều khoản sử dụng & quy định đăng tin XomSom","description":"XomSom (xomsom.com) và bảng tin Atom (xomsom.com/atom) là nơi đăng tin quảng cáo ngắn hạn do CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ THÔNG TIN GOLDEN KEY (\"chúng tôi\") vận hành: mỗi tin sản phẩm, dịch vụ, sự kiện, việc làm hay cho thuê chạy trong 24 giờ và hiện ngẫu nhiên cho người xem theo nơi chốn và lĩnh vực. Khi xem hoặc đăng tin, bạn đồng ý với các điều khoản này và Chính sách quyền riêng tư của XomSom.","url":"https://xomsom.com/atom/legal/terms/","inLanguage":"vi","dateModified":"2026-10-25","isPartOf":{"@type":"WebSite","name":"XomSom","url":"https://xomsom.com"}}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"XomSom","item":"https://xomsom.com/"},{"@type":"ListItem","position":2,"name":"Điều khoản sử dụng & quy định đăng tin XomSom","item":"https://xomsom.com/atom/legal/terms/"}]}</script>
 
@@ -42,6 +70,7 @@
 <meta property="og:url" content="https://xomsom.com/atom/legal/terms/">
 <meta property="og:site_name" content="XomSom">
 <meta property="og:locale" content="vi_VN">
+<meta property="og:locale:alternate" content="en_US">
 <meta property="og:title" content="Điều khoản sử dụng &amp; quy định đăng tin">
 <meta property="og:description" content="XomSom (xomsom.com) và bảng tin Atom (xomsom.com/atom) là nơi đăng tin quảng cáo ngắn hạn do CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ THÔNG TIN GOLDEN KEY (&quot;chúng tôi&quot;) vận hành: mỗi tin sản phẩm, dịch vụ, sự kiện, việc làm hay cho thuê chạy trong 24 giờ và hiện ngẫu nhiên cho người xem theo nơi chốn và lĩnh vực. Khi xem hoặc đăng tin, bạn đồng ý với các điều khoản này và Chính sách quyền riêng tư của XomSom.">
 <meta property="og:image" content="https://xomsom.com/images/common/xomsom-og-vi.png">
@@ -66,6 +95,7 @@ const langCookie = "en";
 				const m = document.cookie.match(new RegExp('(?:^|; )' + themeCookie + '=([^;]*)'));
 				const t = m ? decodeURIComponent(m[1]) : null;
 				if (t) document.documentElement.setAttribute('data-theme', t);
+				if (document.querySelector('link[rel="alternate"][hreflang]')) return;
 				const lm = document.cookie.match(new RegExp('(?:^|; )' + langCookie + '=([^;]*)'));
 				const l = lm ? decodeURIComponent(lm[1]) : null;
 				if (l) document.documentElement.setAttribute('lang', l);
@@ -74,6 +104,7 @@ const langCookie = "en";
 			document.addEventListener('astro:before-swap', function(e) {
 				const theme = document.documentElement.getAttribute('data-theme');
 				if (theme) e.newDocument.documentElement.setAttribute('data-theme', theme);
+				if (e.newDocument.querySelector('link[rel="alternate"][hreflang]')) return;
 				const lang = document.documentElement.getAttribute('lang');
 				if (lang) e.newDocument.documentElement.setAttribute('lang', lang);
 			});
@@ -110,8 +141,8 @@ const langCookie = "en";
           tick()
         })
       })()
-    </script><link rel="stylesheet" href="/assets/css/cookier.css">
-<link rel="stylesheet" href="/assets/css/_slug_@_@astro.css">
+    </script><link rel="stylesheet" href="/assets/css/Base.css">
+<link rel="stylesheet" href="/assets/css/AtomLegal.css">
 <link rel="stylesheet" href="/assets/css/board-seo.css"><style>[data-astro-transition-scope="astro-iowzsdjs-1"] { view-transition-name: astro-iowzsdjs-1; }@layer astro { ::view-transition-old(astro-iowzsdjs-1) { 
 	animation-duration: 0.5s;
 	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
@@ -173,7 +204,7 @@ const langCookie = "en";
 
 
 
-<script type="module" src="/_astro/BtnLang.astro_astro_type_script_index_0_lang.HstijVx7.js"></script>
+<script type="module" src="/_astro/BtnLang.astro_astro_type_script_index_0_lang.DXCZhTXW.js"></script>
 		</div>
 	</div>
 </div>
@@ -524,24 +555,24 @@ const langCookie = "en";
         <script type="module" src="/_astro/Core.astro_astro_type_script_index_0_lang.4tqTyDYm.js"></script><svc-underlay id="main-bg" class="-mt-1" blur="true" quality="medium" concept="stars" tint="#4fd8ff" deg="45" speed="4" size="1~4" limit="30" trail="40" gradient="true" total="3" colorful="false" blobType="circleOverlap" blobMove="swap" distance="108" data-astro-transition-persist="main-bg" data-astro-cid-d52dpipw="true"></svc-underlay>
         <div class="min-h-dvh relative" data-astro-cid-d52dpipw>
 				  
-	<div class="legal mx-auto w-full max-w-6xl px-4 pt-24 pb-20 lg:grid lg:grid-cols-[13rem_minmax(0,1fr)] lg:gap-12" data-astro-cid-jgu32a3c>
+	<div class="legal mx-auto w-full max-w-6xl px-4 pt-24 pb-20 lg:grid lg:grid-cols-[13rem_minmax(0,1fr)] lg:gap-12" data-astro-cid-kwdsvwav>
 		<aside class="side" aria-label="Legal" data-astro-cid-idhr45ls>
 	<nav class="side-card" data-astro-cid-idhr45ls>
 		<p class="side-head" data-astro-cid-idhr45ls>
 			<iconify-icon icon="ri:scales-3-line" data-astro-cid-idhr45ls="true"></iconify-icon>
-			<span class="i18n-vi">Pháp lý</span><span class="i18n-en">Legal</span>
+			Pháp lý
 			<span class="side-count" data-astro-cid-idhr45ls>2</span>
 		</p>
 		<ul data-astro-cid-idhr45ls>
 			<li data-astro-cid-idhr45ls>
 					<a href="/atom/legal/terms/" aria-current="page" data-astro-cid-idhr45ls>
 						<span class="side-glyph" data-astro-cid-idhr45ls><iconify-icon icon="ri:file-list-3-line" data-astro-cid-idhr45ls="true"></iconify-icon></span>
-						<span class="side-label" data-astro-cid-idhr45ls><span class="i18n-vi">Điều khoản</span><span class="i18n-en">Terms</span></span>
+						<span class="side-label" data-astro-cid-idhr45ls>Điều khoản</span>
 					</a>
 				</li><li data-astro-cid-idhr45ls>
 					<a href="/atom/legal/privacy/" data-astro-cid-idhr45ls>
 						<span class="side-glyph" data-astro-cid-idhr45ls><iconify-icon icon="ri:shield-user-line" data-astro-cid-idhr45ls="true"></iconify-icon></span>
-						<span class="side-label" data-astro-cid-idhr45ls><span class="i18n-vi">Quyền riêng tư</span><span class="i18n-en">Privacy</span></span>
+						<span class="side-label" data-astro-cid-idhr45ls>Quyền riêng tư</span>
 					</a>
 				</li>
 		</ul>
@@ -556,38 +587,38 @@ const langCookie = "en";
 
 <script type="module" src="/_astro/SideMenu.astro_astro_type_script_index_0_lang.BQiQzZGN.js"></script>
 
-		<article class="legal-body" data-astro-cid-jgu32a3c>
-			<p class="legal-eyebrow" data-astro-cid-jgu32a3c><span class="i18n-vi">Có hiệu lực từ 25/10/2026</span><span class="i18n-en">Effective October 25, 2026</span></p>
-			<h1 data-astro-cid-jgu32a3c><span class="i18n-vi">Điều khoản sử dụng &amp; quy định đăng tin XomSom</span><span class="i18n-en">XomSom Terms of Use &amp; Posting Rules</span></h1>
-			<p class="legal-lead" data-astro-cid-jgu32a3c><span class="i18n-vi">XomSom (xomsom.com) và bảng tin Atom (xomsom.com/atom) là nơi đăng tin quảng cáo ngắn hạn do CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ THÔNG TIN GOLDEN KEY (&quot;chúng tôi&quot;) vận hành: mỗi tin sản phẩm, dịch vụ, sự kiện, việc làm hay cho thuê chạy trong 24 giờ và hiện ngẫu nhiên cho người xem theo nơi chốn và lĩnh vực. Khi xem hoặc đăng tin, bạn đồng ý với các điều khoản này và Chính sách quyền riêng tư của XomSom.</span><span class="i18n-en">XomSom (xomsom.com) and its Atom board (xomsom.com/atom) are a short-lived ad board run by GOLDEN KEY IT SOLUTIONS JOINT STOCK COMPANY (&quot;we&quot;, &quot;us&quot;): each product, service, event, job or rental post runs for 24 hours and is shown at random to viewers by place and industry. By viewing or posting you agree to these terms and the XomSom Privacy Policy.</span></p>
+		<article class="legal-body" data-astro-cid-kwdsvwav>
+			<p class="legal-eyebrow" data-astro-cid-kwdsvwav>Có hiệu lực từ 25/10/2026</p>
+			<h1 data-astro-cid-kwdsvwav>Điều khoản sử dụng &amp; quy định đăng tin XomSom</h1>
+			<p class="legal-lead" data-astro-cid-kwdsvwav>XomSom (xomsom.com) và bảng tin Atom (xomsom.com/atom) là nơi đăng tin quảng cáo ngắn hạn do CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ THÔNG TIN GOLDEN KEY (&quot;chúng tôi&quot;) vận hành: mỗi tin sản phẩm, dịch vụ, sự kiện, việc làm hay cho thuê chạy trong 24 giờ và hiện ngẫu nhiên cho người xem theo nơi chốn và lĩnh vực. Khi xem hoặc đăng tin, bạn đồng ý với các điều khoản này và Chính sách quyền riêng tư của XomSom.</p>
 
-			<section data-astro-cid-jgu32a3c>
-					<h2 data-astro-cid-jgu32a3c><span class="i18n-vi">1. Xem và đăng tin</span><span class="i18n-en">1. Viewing and posting</span></h2>
-					<ul data-astro-cid-jgu32a3c><li data-astro-cid-jgu32a3c><span class="i18n-vi">Ai cũng xem được tin mà không cần tài khoản.</span><span class="i18n-en">Anyone can view posts without an account.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Đăng tin cần đăng nhập bằng tài khoản đang hoạt động. Người đăng phải đủ 18 tuổi, hoặc có sự đồng ý của cha mẹ / người giám hộ. Đăng thay một tổ chức nghĩa là bạn xác nhận mình được tổ chức đó cho phép.</span><span class="i18n-en">Posting requires signing in with an active account. Posters must be 18 or older, or have a parent&#39;s / guardian&#39;s consent. Posting for an organisation means you confirm it has authorised you.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Hiện tại đăng tin là miễn phí. Nếu sau này có tính năng trả phí, giá và điều kiện sẽ được công bố rõ trước khi bạn dùng.</span><span class="i18n-en">Posting is currently free. If paid features are added later, their price and terms will be shown clearly before you use them.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Mỗi tin cần: loại tin, lĩnh vực, tiêu đề (3–80 ký tự), mô tả và địa chỉ (quốc gia, các cấp hành chính, số nhà / đường). Giá, ảnh (tối đa 6), một video và thông tin liên hệ là tuỳ chọn; ghim bản đồ cũng tuỳ chọn.</span><span class="i18n-en">Each post needs: a kind, an industry, a title (3–80 characters), a description and an address (country, administrative levels, street). Price, images (up to 6), one video and contact details are optional; a map pin is optional too.</span></li></ul>
-				</section><section data-astro-cid-jgu32a3c>
-					<h2 data-astro-cid-jgu32a3c><span class="i18n-vi">2. Thời gian chạy và giới hạn</span><span class="i18n-en">2. Run time and limits</span></h2>
-					<ul data-astro-cid-jgu32a3c><li data-astro-cid-jgu32a3c><span class="i18n-vi">Tin chạy 24 giờ kể từ lúc đăng (hoặc đăng lại), rồi tự ẩn.</span><span class="i18n-en">A post runs for 24 hours from posting (or renewing), then hides on its own.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Mỗi tài khoản có tối đa 3 tin đang chạy cùng lúc. Tin đã ẩn hoặc hết hạn không tính.</span><span class="i18n-en">Each account may have up to 3 running posts at once. Hidden or expired posts do not count.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Tin hết hạn được giữ 7 ngày để bạn đăng lại; sau đó bị xoá hẳn và không khôi phục được.</span><span class="i18n-en">An expired post is kept for 7 days so you can renew it; after that it is deleted for good and cannot be restored.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Thứ tự và tần suất tin hiện ra là ngẫu nhiên. Chúng tôi không cam kết số lượt hiện, lượt mở hay kết quả kinh doanh nào.</span><span class="i18n-en">The order and frequency in which posts appear are random. We do not promise any number of views, opens or business results.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Để giữ dịch vụ ổn định, số lần đọc và ghi bị giới hạn theo phút; vượt giới hạn thì thao tác bị từ chối tạm thời.</span><span class="i18n-en">To keep the service stable, reads and writes are rate-limited per minute; going over the limit temporarily rejects the request.</span></li></ul>
-				</section><section data-astro-cid-jgu32a3c>
-					<h2 data-astro-cid-jgu32a3c><span class="i18n-vi">3. Nội dung bị cấm</span><span class="i18n-en">3. Prohibited content</span></h2>
-					<p data-astro-cid-jgu32a3c><span class="i18n-vi">Bạn không được đăng tin có nội dung:</span><span class="i18n-en">You must not post anything that:</span></p><ul data-astro-cid-jgu32a3c><li data-astro-cid-jgu32a3c><span class="i18n-vi">Trái pháp luật Việt Nam hoặc nơi bạn đăng: hàng cấm, hàng giả, hàng nhái, hàng không rõ nguồn gốc; thuốc, vũ khí, chất kích thích; cờ bạc, cá cược; dịch vụ tài chính không phép.</span><span class="i18n-en">Breaks the law of Vietnam or of the place you post in: banned, counterfeit or untraceable goods; drugs, weapons, stimulants; gambling or betting; unlicensed financial services.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Lừa đảo, đa cấp biến tướng, &quot;việc nhẹ lương cao&quot;, thu tiền đặt cọc không có thật, giả danh tổ chức hoặc người khác.</span><span class="i18n-en">Scams, disguised pyramid schemes, &quot;easy work, high pay&quot; lures, fake deposits, or impersonating organisations or people.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Khiêu dâm, bạo lực, kích động thù ghét, phân biệt đối xử; xâm phạm trẻ em.</span><span class="i18n-en">Sexual content, violence, hate or discrimination; anything harming children.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Vi phạm bản quyền, nhãn hiệu, hình ảnh hay dữ liệu cá nhân của người khác (vd đăng số điện thoại, địa chỉ của người không đồng ý).</span><span class="i18n-en">Infringes others&#39; copyright, trademarks, likeness or personal data (e.g. posting the phone number or address of someone who did not agree).</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Sai sự thật về giá, chất lượng, địa chỉ hay lĩnh vực; đăng trùng lặp hàng loạt để chiếm chỗ tin khác; liên kết tới mã độc hoặc trang lừa đảo.</span><span class="i18n-en">Is false about price, quality, address or industry; mass-duplicates posts to crowd out others; or links to malware or phishing pages.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Quảng cáo ngành nghề cần giấy phép (y tế, dược, giáo dục, tài chính, bất động sản…) mà bạn không có giấy phép đó.</span><span class="i18n-en">Advertises a regulated trade (healthcare, pharmacy, education, finance, real estate…) without holding the licence it needs.</span></li></ul>
-				</section><section data-astro-cid-jgu32a3c>
-					<h2 data-astro-cid-jgu32a3c><span class="i18n-vi">4. Trách nhiệm của người đăng</span><span class="i18n-en">4. Poster responsibility</span></h2>
-					<ul data-astro-cid-jgu32a3c><li data-astro-cid-jgu32a3c><span class="i18n-vi">Bạn chịu trách nhiệm hoàn toàn về nội dung, hình ảnh, video, giá và thông tin liên hệ trong tin của mình, và có đủ quyền để đăng chúng.</span><span class="i18n-en">You are fully responsible for the content, images, videos, prices and contact details in your posts, and you must hold the rights to publish them.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Bạn cấp cho chúng tôi quyền không độc quyền, miễn phí để lưu trữ, hiển thị và phân phối tin trên XomSom trong thời gian tin còn được lưu.</span><span class="i18n-en">You grant us a non-exclusive, free licence to store, display and distribute your post on XomSom for as long as it is kept.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Tin, kể cả thông tin liên hệ và địa chỉ bạn nhập, là công khai cho mọi người xem — đừng đưa vào thông tin bạn không muốn công khai.</span><span class="i18n-en">Posts — including the contact details and address you enter — are public to everyone; do not include anything you do not want made public.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Giữ bí mật mật khẩu và phiên đăng nhập. Bạn chịu trách nhiệm về mọi tin đăng dưới tài khoản của mình.</span><span class="i18n-en">Keep your password and sessions secret. You are responsible for every post made under your account.</span></li></ul>
-				</section><section data-astro-cid-jgu32a3c>
-					<h2 data-astro-cid-jgu32a3c><span class="i18n-vi">5. Giao dịch giữa người xem và người đăng</span><span class="i18n-en">5. Deals between viewers and posters</span></h2>
-					<p data-astro-cid-jgu32a3c><span class="i18n-vi">XomSom chỉ là nơi hiển thị tin. Chúng tôi không phải bên bán, bên mua, bên môi giới hay bên bảo lãnh của bất kỳ giao dịch nào, không kiểm định hàng hoá / dịch vụ và không xử lý thanh toán giữa các bên. Hãy tự kiểm tra người bán, hàng hoá và không chuyển tiền đặt cọc khi chưa chắc chắn.</span><span class="i18n-en">XomSom only displays posts. We are not the seller, buyer, broker or guarantor of any deal, we do not inspect goods or services and we do not handle payments between the parties. Check the seller and the goods yourself and do not pay deposits unless you are sure.</span></p>
-				</section><section data-astro-cid-jgu32a3c>
-					<h2 data-astro-cid-jgu32a3c><span class="i18n-vi">6. Gỡ tin và khoá tài khoản</span><span class="i18n-en">6. Removal and suspension</span></h2>
-					<ul data-astro-cid-jgu32a3c><li data-astro-cid-jgu32a3c><span class="i18n-vi">Chúng tôi có thể gỡ bất kỳ tin nào vi phạm các điều khoản này hoặc pháp luật mà không cần báo trước. Tin bị gỡ không chạy lại hay đăng lại được.</span><span class="i18n-en">We may remove any post that breaks these terms or the law without notice. A removed post cannot be run again or renewed.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Vi phạm nghiêm trọng hoặc lặp lại có thể dẫn tới khoá quyền đăng tin hoặc khoá tài khoản.</span><span class="i18n-en">Serious or repeated breaches may lead to losing the right to post or to account suspension.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Khi cơ quan nhà nước có thẩm quyền yêu cầu, chúng tôi có thể gỡ tin và cung cấp thông tin theo đúng quy định pháp luật.</span><span class="i18n-en">When a competent authority requires it, we may remove posts and disclose information as the law requires.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Thấy tin vi phạm? Gửi đường link hoặc tiêu đề tin tới kimthiendung@gmail.com. Chúng tôi xem xét và phản hồi trong thời gian hợp lý.</span><span class="i18n-en">Seen a post that breaks the rules? Send its link or title to kimthiendung@gmail.com. We review reports and respond within a reasonable time.</span></li></ul>
-				</section><section data-astro-cid-jgu32a3c>
-					<h2 data-astro-cid-jgu32a3c><span class="i18n-vi">7. Giới hạn trách nhiệm</span><span class="i18n-en">7. Limitation of liability</span></h2>
-					<p data-astro-cid-jgu32a3c><span class="i18n-vi">XomSom được cung cấp &quot;nguyên trạng&quot;. Trong phạm vi pháp luật cho phép, chúng tôi không chịu trách nhiệm về thiệt hại phát sinh từ nội dung tin của người dùng, từ giao dịch giữa người dùng với nhau, hay từ việc dịch vụ tạm gián đoạn, mất tin do lỗi kỹ thuật. Không điều nào ở đây loại trừ trách nhiệm mà pháp luật không cho phép loại trừ.</span><span class="i18n-en">XomSom is provided &quot;as is&quot;. To the extent the law allows, we are not liable for damage arising from users&#39; posts, from deals between users, or from temporary outages or posts lost to technical faults. Nothing here excludes liability that the law does not allow to be excluded.</span></p>
-				</section><section data-astro-cid-jgu32a3c>
-					<h2 data-astro-cid-jgu32a3c><span class="i18n-vi">8. Thay đổi, luật áp dụng và tranh chấp</span><span class="i18n-en">8. Changes, governing law and disputes</span></h2>
-					<ul data-astro-cid-jgu32a3c><li data-astro-cid-jgu32a3c><span class="i18n-vi">Khi điều khoản thay đổi, bản mới được đăng tại trang này và áp dụng từ ngày hiệu lực ghi ở đầu trang. Tiếp tục dùng sau ngày đó nghĩa là bạn đồng ý với bản mới.</span><span class="i18n-en">When these terms change, the new version is published on this page and applies from the effective date shown at the top. Continuing to use the service after that date means you accept it.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Các điều khoản này theo pháp luật Việt Nam. Tranh chấp được ưu tiên giải quyết bằng thương lượng; không thành thì đưa ra toà án có thẩm quyền tại Thành phố Hồ Chí Minh.</span><span class="i18n-en">These terms are governed by the laws of Vietnam. Disputes are first settled by negotiation; failing that, by the competent court in Ho Chi Minh City.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Bản tiếng Việt là bản chính khi có khác biệt giữa hai ngôn ngữ.</span><span class="i18n-en">The Vietnamese version prevails if the two languages differ.</span></li></ul>
-				</section><section data-astro-cid-jgu32a3c>
-					<h2 data-astro-cid-jgu32a3c><span class="i18n-vi">9. Liên hệ</span><span class="i18n-en">9. Contact</span></h2>
-					<p data-astro-cid-jgu32a3c><span class="i18n-vi">XomSom do CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ THÔNG TIN GOLDEN KEY vận hành · Mã số thuế đang đăng ký · 670 Đoàn Văn Bơ, Khu phố 16, Phường Xóm Chiếu, TP. HCM · Email: kimthiendung@gmail.com.</span><span class="i18n-en">XomSom is run by GOLDEN KEY IT SOLUTIONS JOINT STOCK COMPANY · Tax code pending registration · 670 Đoàn Văn Bơ, Khu phố 16, Phường Xóm Chiếu, TP. HCM · Email: kimthiendung@gmail.com.</span></p>
+			<section data-astro-cid-kwdsvwav>
+					<h2 data-astro-cid-kwdsvwav>1. Xem và đăng tin</h2>
+					<ul data-astro-cid-kwdsvwav><li data-astro-cid-kwdsvwav>Ai cũng xem được tin mà không cần tài khoản.</li><li data-astro-cid-kwdsvwav>Đăng tin cần đăng nhập bằng tài khoản đang hoạt động. Người đăng phải đủ 18 tuổi, hoặc có sự đồng ý của cha mẹ / người giám hộ. Đăng thay một tổ chức nghĩa là bạn xác nhận mình được tổ chức đó cho phép.</li><li data-astro-cid-kwdsvwav>Hiện tại đăng tin là miễn phí. Nếu sau này có tính năng trả phí, giá và điều kiện sẽ được công bố rõ trước khi bạn dùng.</li><li data-astro-cid-kwdsvwav>Mỗi tin cần: loại tin, lĩnh vực, tiêu đề (3–80 ký tự), mô tả và địa chỉ (quốc gia, các cấp hành chính, số nhà / đường). Giá, ảnh (tối đa 6), một video và thông tin liên hệ là tuỳ chọn; ghim bản đồ cũng tuỳ chọn.</li></ul>
+				</section><section data-astro-cid-kwdsvwav>
+					<h2 data-astro-cid-kwdsvwav>2. Thời gian chạy và giới hạn</h2>
+					<ul data-astro-cid-kwdsvwav><li data-astro-cid-kwdsvwav>Tin chạy 24 giờ kể từ lúc đăng (hoặc đăng lại), rồi tự ẩn.</li><li data-astro-cid-kwdsvwav>Mỗi tài khoản có tối đa 3 tin đang chạy cùng lúc. Tin đã ẩn hoặc hết hạn không tính.</li><li data-astro-cid-kwdsvwav>Tin hết hạn được giữ 7 ngày để bạn đăng lại; sau đó bị xoá hẳn và không khôi phục được.</li><li data-astro-cid-kwdsvwav>Thứ tự và tần suất tin hiện ra là ngẫu nhiên. Chúng tôi không cam kết số lượt hiện, lượt mở hay kết quả kinh doanh nào.</li><li data-astro-cid-kwdsvwav>Để giữ dịch vụ ổn định, số lần đọc và ghi bị giới hạn theo phút; vượt giới hạn thì thao tác bị từ chối tạm thời.</li></ul>
+				</section><section data-astro-cid-kwdsvwav>
+					<h2 data-astro-cid-kwdsvwav>3. Nội dung bị cấm</h2>
+					<p data-astro-cid-kwdsvwav>Bạn không được đăng tin có nội dung:</p><ul data-astro-cid-kwdsvwav><li data-astro-cid-kwdsvwav>Trái pháp luật Việt Nam hoặc nơi bạn đăng: hàng cấm, hàng giả, hàng nhái, hàng không rõ nguồn gốc; thuốc, vũ khí, chất kích thích; cờ bạc, cá cược; dịch vụ tài chính không phép.</li><li data-astro-cid-kwdsvwav>Lừa đảo, đa cấp biến tướng, &quot;việc nhẹ lương cao&quot;, thu tiền đặt cọc không có thật, giả danh tổ chức hoặc người khác.</li><li data-astro-cid-kwdsvwav>Khiêu dâm, bạo lực, kích động thù ghét, phân biệt đối xử; xâm phạm trẻ em.</li><li data-astro-cid-kwdsvwav>Vi phạm bản quyền, nhãn hiệu, hình ảnh hay dữ liệu cá nhân của người khác (vd đăng số điện thoại, địa chỉ của người không đồng ý).</li><li data-astro-cid-kwdsvwav>Sai sự thật về giá, chất lượng, địa chỉ hay lĩnh vực; đăng trùng lặp hàng loạt để chiếm chỗ tin khác; liên kết tới mã độc hoặc trang lừa đảo.</li><li data-astro-cid-kwdsvwav>Quảng cáo ngành nghề cần giấy phép (y tế, dược, giáo dục, tài chính, bất động sản…) mà bạn không có giấy phép đó.</li></ul>
+				</section><section data-astro-cid-kwdsvwav>
+					<h2 data-astro-cid-kwdsvwav>4. Trách nhiệm của người đăng</h2>
+					<ul data-astro-cid-kwdsvwav><li data-astro-cid-kwdsvwav>Bạn chịu trách nhiệm hoàn toàn về nội dung, hình ảnh, video, giá và thông tin liên hệ trong tin của mình, và có đủ quyền để đăng chúng.</li><li data-astro-cid-kwdsvwav>Bạn cấp cho chúng tôi quyền không độc quyền, miễn phí để lưu trữ, hiển thị và phân phối tin trên XomSom trong thời gian tin còn được lưu.</li><li data-astro-cid-kwdsvwav>Tin, kể cả thông tin liên hệ và địa chỉ bạn nhập, là công khai cho mọi người xem — đừng đưa vào thông tin bạn không muốn công khai.</li><li data-astro-cid-kwdsvwav>Giữ bí mật mật khẩu và phiên đăng nhập. Bạn chịu trách nhiệm về mọi tin đăng dưới tài khoản của mình.</li></ul>
+				</section><section data-astro-cid-kwdsvwav>
+					<h2 data-astro-cid-kwdsvwav>5. Giao dịch giữa người xem và người đăng</h2>
+					<p data-astro-cid-kwdsvwav>XomSom chỉ là nơi hiển thị tin. Chúng tôi không phải bên bán, bên mua, bên môi giới hay bên bảo lãnh của bất kỳ giao dịch nào, không kiểm định hàng hoá / dịch vụ và không xử lý thanh toán giữa các bên. Hãy tự kiểm tra người bán, hàng hoá và không chuyển tiền đặt cọc khi chưa chắc chắn.</p>
+				</section><section data-astro-cid-kwdsvwav>
+					<h2 data-astro-cid-kwdsvwav>6. Gỡ tin và khoá tài khoản</h2>
+					<ul data-astro-cid-kwdsvwav><li data-astro-cid-kwdsvwav>Chúng tôi có thể gỡ bất kỳ tin nào vi phạm các điều khoản này hoặc pháp luật mà không cần báo trước. Tin bị gỡ không chạy lại hay đăng lại được.</li><li data-astro-cid-kwdsvwav>Vi phạm nghiêm trọng hoặc lặp lại có thể dẫn tới khoá quyền đăng tin hoặc khoá tài khoản.</li><li data-astro-cid-kwdsvwav>Khi cơ quan nhà nước có thẩm quyền yêu cầu, chúng tôi có thể gỡ tin và cung cấp thông tin theo đúng quy định pháp luật.</li><li data-astro-cid-kwdsvwav>Thấy tin vi phạm? Gửi đường link hoặc tiêu đề tin tới kimthiendung@gmail.com. Chúng tôi xem xét và phản hồi trong thời gian hợp lý.</li></ul>
+				</section><section data-astro-cid-kwdsvwav>
+					<h2 data-astro-cid-kwdsvwav>7. Giới hạn trách nhiệm</h2>
+					<p data-astro-cid-kwdsvwav>XomSom được cung cấp &quot;nguyên trạng&quot;. Trong phạm vi pháp luật cho phép, chúng tôi không chịu trách nhiệm về thiệt hại phát sinh từ nội dung tin của người dùng, từ giao dịch giữa người dùng với nhau, hay từ việc dịch vụ tạm gián đoạn, mất tin do lỗi kỹ thuật. Không điều nào ở đây loại trừ trách nhiệm mà pháp luật không cho phép loại trừ.</p>
+				</section><section data-astro-cid-kwdsvwav>
+					<h2 data-astro-cid-kwdsvwav>8. Thay đổi, luật áp dụng và tranh chấp</h2>
+					<ul data-astro-cid-kwdsvwav><li data-astro-cid-kwdsvwav>Khi điều khoản thay đổi, bản mới được đăng tại trang này và áp dụng từ ngày hiệu lực ghi ở đầu trang. Tiếp tục dùng sau ngày đó nghĩa là bạn đồng ý với bản mới.</li><li data-astro-cid-kwdsvwav>Các điều khoản này theo pháp luật Việt Nam. Tranh chấp được ưu tiên giải quyết bằng thương lượng; không thành thì đưa ra toà án có thẩm quyền tại Thành phố Hồ Chí Minh.</li><li data-astro-cid-kwdsvwav>Bản tiếng Việt là bản chính khi có khác biệt giữa hai ngôn ngữ.</li></ul>
+				</section><section data-astro-cid-kwdsvwav>
+					<h2 data-astro-cid-kwdsvwav>9. Liên hệ</h2>
+					<p data-astro-cid-kwdsvwav>XomSom do CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ THÔNG TIN GOLDEN KEY vận hành · Mã số thuế đang đăng ký · 670 Đoàn Văn Bơ, Khu phố 16, Phường Xóm Chiếu, TP. HCM · Email: kimthiendung@gmail.com.</p>
 				</section>
 		</article>
 	</div>

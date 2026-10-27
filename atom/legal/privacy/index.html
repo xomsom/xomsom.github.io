@@ -24,6 +24,34 @@
 <link rel="canonical" href="https://xomsom.com/atom/legal/privacy/">
 
 
+<link rel="alternate" hreflang="vi" href="https://xomsom.com/atom/legal/privacy/"><link rel="alternate" hreflang="en" href="https://xomsom.com/en/atom/legal/privacy/">
+<link rel="alternate" hreflang="x-default" href="https://xomsom.com/atom/legal/privacy/">
+
+<script>(function(){const langCookie = "en";
+
+			(function () {
+				// Đường dẫn bản ngôn ngữ `l` của trang đang mở — null nếu không có, hoặc chính là trang này.
+				const altPath = (l) => {
+					const link = l && document.querySelector('link[rel="alternate"][hreflang="' + l + '"]');
+					const path = link ? new URL(link.href).pathname : '';
+					const norm = (p) => p.replace(/\/$/, '') || '/';
+					return path && norm(path) !== norm(location.pathname) ? path : null;
+				};
+				const m = document.cookie.match(new RegExp('(?:^|; )' + langCookie + '=([^;]*)'));
+				let inSite = false;
+				try { inSite = new URL(document.referrer).origin === location.origin; } catch (e) {}
+				const saved = m && !inSite ? altPath(decodeURIComponent(m[1])) : null;
+				if (saved) return location.replace(saved + location.search + location.hash);
+				if (window.__langRoute) return;
+				window.__langRoute = true;
+				document.addEventListener('lang-change', function (e) {
+					const path = altPath(e.detail && e.detail.lang);
+					if (path) location.assign(path + location.hash);
+				});
+			})();
+		})();</script>
+
+
 
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","@id":"https://xomsom.com/#organization","name":"XomSom","url":"https://xomsom.com","logo":"https://xomsom.com/logo.avif","legalName":"CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ THÔNG TIN GOLDEN KEY","email":"kimthiendung@gmail.com","address":{"@type":"PostalAddress","streetAddress":"670 Đoàn Văn Bơ, Khu phố 16, Phường Xóm Chiếu","addressLocality":"Ho Chi Minh City","addressCountry":"VN"}}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Chính sách quyền riêng tư XomSom","description":"Chính sách này giải thích XomSom (xomsom.com) và bảng tin Atom thu thập, hiển thị, lưu giữ và xoá dữ liệu nào. Chúng tôi chỉ dùng dữ liệu để vận hành bảng tin — không bán dữ liệu và không dùng cho quảng cáo theo dõi.","url":"https://xomsom.com/atom/legal/privacy/","inLanguage":"vi","dateModified":"2026-10-25","isPartOf":{"@type":"WebSite","name":"XomSom","url":"https://xomsom.com"}}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"XomSom","item":"https://xomsom.com/"},{"@type":"ListItem","position":2,"name":"Chính sách quyền riêng tư XomSom","item":"https://xomsom.com/atom/legal/privacy/"}]}</script>
 
@@ -42,6 +70,7 @@
 <meta property="og:url" content="https://xomsom.com/atom/legal/privacy/">
 <meta property="og:site_name" content="XomSom">
 <meta property="og:locale" content="vi_VN">
+<meta property="og:locale:alternate" content="en_US">
 <meta property="og:title" content="Chính sách quyền riêng tư">
 <meta property="og:description" content="Chính sách này giải thích XomSom (xomsom.com) và bảng tin Atom thu thập, hiển thị, lưu giữ và xoá dữ liệu nào. Chúng tôi chỉ dùng dữ liệu để vận hành bảng tin — không bán dữ liệu và không dùng cho quảng cáo theo dõi.">
 <meta property="og:image" content="https://xomsom.com/images/common/xomsom-og-vi.png">
@@ -66,6 +95,7 @@ const langCookie = "en";
 				const m = document.cookie.match(new RegExp('(?:^|; )' + themeCookie + '=([^;]*)'));
 				const t = m ? decodeURIComponent(m[1]) : null;
 				if (t) document.documentElement.setAttribute('data-theme', t);
+				if (document.querySelector('link[rel="alternate"][hreflang]')) return;
 				const lm = document.cookie.match(new RegExp('(?:^|; )' + langCookie + '=([^;]*)'));
 				const l = lm ? decodeURIComponent(lm[1]) : null;
 				if (l) document.documentElement.setAttribute('lang', l);
@@ -74,6 +104,7 @@ const langCookie = "en";
 			document.addEventListener('astro:before-swap', function(e) {
 				const theme = document.documentElement.getAttribute('data-theme');
 				if (theme) e.newDocument.documentElement.setAttribute('data-theme', theme);
+				if (e.newDocument.querySelector('link[rel="alternate"][hreflang]')) return;
 				const lang = document.documentElement.getAttribute('lang');
 				if (lang) e.newDocument.documentElement.setAttribute('lang', lang);
 			});
@@ -110,8 +141,8 @@ const langCookie = "en";
           tick()
         })
       })()
-    </script><link rel="stylesheet" href="/assets/css/cookier.css">
-<link rel="stylesheet" href="/assets/css/_slug_@_@astro.css">
+    </script><link rel="stylesheet" href="/assets/css/Base.css">
+<link rel="stylesheet" href="/assets/css/AtomLegal.css">
 <link rel="stylesheet" href="/assets/css/board-seo.css"><style>[data-astro-transition-scope="astro-iowzsdjs-1"] { view-transition-name: astro-iowzsdjs-1; }@layer astro { ::view-transition-old(astro-iowzsdjs-1) { 
 	animation-duration: 0.5s;
 	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
@@ -173,7 +204,7 @@ const langCookie = "en";
 
 
 
-<script type="module" src="/_astro/BtnLang.astro_astro_type_script_index_0_lang.HstijVx7.js"></script>
+<script type="module" src="/_astro/BtnLang.astro_astro_type_script_index_0_lang.DXCZhTXW.js"></script>
 		</div>
 	</div>
 </div>
@@ -524,24 +555,24 @@ const langCookie = "en";
         <script type="module" src="/_astro/Core.astro_astro_type_script_index_0_lang.4tqTyDYm.js"></script><svc-underlay id="main-bg" class="-mt-1" blur="true" quality="medium" concept="stars" tint="#4fd8ff" deg="45" speed="4" size="1~4" limit="30" trail="40" gradient="true" total="3" colorful="false" blobType="circleOverlap" blobMove="swap" distance="108" data-astro-transition-persist="main-bg" data-astro-cid-d52dpipw="true"></svc-underlay>
         <div class="min-h-dvh relative" data-astro-cid-d52dpipw>
 				  
-	<div class="legal mx-auto w-full max-w-6xl px-4 pt-24 pb-20 lg:grid lg:grid-cols-[13rem_minmax(0,1fr)] lg:gap-12" data-astro-cid-jgu32a3c>
+	<div class="legal mx-auto w-full max-w-6xl px-4 pt-24 pb-20 lg:grid lg:grid-cols-[13rem_minmax(0,1fr)] lg:gap-12" data-astro-cid-kwdsvwav>
 		<aside class="side" aria-label="Legal" data-astro-cid-idhr45ls>
 	<nav class="side-card" data-astro-cid-idhr45ls>
 		<p class="side-head" data-astro-cid-idhr45ls>
 			<iconify-icon icon="ri:scales-3-line" data-astro-cid-idhr45ls="true"></iconify-icon>
-			<span class="i18n-vi">Pháp lý</span><span class="i18n-en">Legal</span>
+			Pháp lý
 			<span class="side-count" data-astro-cid-idhr45ls>2</span>
 		</p>
 		<ul data-astro-cid-idhr45ls>
 			<li data-astro-cid-idhr45ls>
 					<a href="/atom/legal/terms/" data-astro-cid-idhr45ls>
 						<span class="side-glyph" data-astro-cid-idhr45ls><iconify-icon icon="ri:file-list-3-line" data-astro-cid-idhr45ls="true"></iconify-icon></span>
-						<span class="side-label" data-astro-cid-idhr45ls><span class="i18n-vi">Điều khoản</span><span class="i18n-en">Terms</span></span>
+						<span class="side-label" data-astro-cid-idhr45ls>Điều khoản</span>
 					</a>
 				</li><li data-astro-cid-idhr45ls>
 					<a href="/atom/legal/privacy/" aria-current="page" data-astro-cid-idhr45ls>
 						<span class="side-glyph" data-astro-cid-idhr45ls><iconify-icon icon="ri:shield-user-line" data-astro-cid-idhr45ls="true"></iconify-icon></span>
-						<span class="side-label" data-astro-cid-idhr45ls><span class="i18n-vi">Quyền riêng tư</span><span class="i18n-en">Privacy</span></span>
+						<span class="side-label" data-astro-cid-idhr45ls>Quyền riêng tư</span>
 					</a>
 				</li>
 		</ul>
@@ -556,38 +587,38 @@ const langCookie = "en";
 
 <script type="module" src="/_astro/SideMenu.astro_astro_type_script_index_0_lang.BQiQzZGN.js"></script>
 
-		<article class="legal-body" data-astro-cid-jgu32a3c>
-			<p class="legal-eyebrow" data-astro-cid-jgu32a3c><span class="i18n-vi">Có hiệu lực từ 25/10/2026</span><span class="i18n-en">Effective October 25, 2026</span></p>
-			<h1 data-astro-cid-jgu32a3c><span class="i18n-vi">Chính sách quyền riêng tư XomSom</span><span class="i18n-en">XomSom Privacy Policy</span></h1>
-			<p class="legal-lead" data-astro-cid-jgu32a3c><span class="i18n-vi">Chính sách này giải thích XomSom (xomsom.com) và bảng tin Atom thu thập, hiển thị, lưu giữ và xoá dữ liệu nào. Chúng tôi chỉ dùng dữ liệu để vận hành bảng tin — không bán dữ liệu và không dùng cho quảng cáo theo dõi.</span><span class="i18n-en">This policy explains which data XomSom (xomsom.com) and its Atom board collect, display, keep and delete. We use data only to run the post board — we do not sell data or use it for tracking ads.</span></p>
+		<article class="legal-body" data-astro-cid-kwdsvwav>
+			<p class="legal-eyebrow" data-astro-cid-kwdsvwav>Có hiệu lực từ 25/10/2026</p>
+			<h1 data-astro-cid-kwdsvwav>Chính sách quyền riêng tư XomSom</h1>
+			<p class="legal-lead" data-astro-cid-kwdsvwav>Chính sách này giải thích XomSom (xomsom.com) và bảng tin Atom thu thập, hiển thị, lưu giữ và xoá dữ liệu nào. Chúng tôi chỉ dùng dữ liệu để vận hành bảng tin — không bán dữ liệu và không dùng cho quảng cáo theo dõi.</p>
 
-			<section data-astro-cid-jgu32a3c>
-					<h2 data-astro-cid-jgu32a3c><span class="i18n-vi">1. Dữ liệu chúng tôi xử lý</span><span class="i18n-en">1. Data we process</span></h2>
-					<ul data-astro-cid-jgu32a3c><li data-astro-cid-jgu32a3c><span class="i18n-vi">Tài khoản: khi bạn đăng nhập để đăng tin, chúng tôi nhận mã định danh tài khoản và email đăng nhập để biết tin nào là của bạn. Các thông tin này không bao giờ hiện cho người xem.</span><span class="i18n-en">Account: when you sign in to post, we receive your account identifier and sign-in email so we know which posts are yours. They are never shown to viewers.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Nội dung tin: loại tin, lĩnh vực, tiêu đề, mô tả, giá, đường link ảnh / video, thông tin liên hệ (điện thoại, Zalo, link), địa chỉ và ghim bản đồ nếu bạn chọn.</span><span class="i18n-en">Post content: kind, industry, title, description, price, image / video links, contact details (phone, Zalo, link), the address and the map pin if you add one.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Số liệu tin: lượt hiện (thẻ tin được hiển thị) và lượt mở (người xem mở chi tiết), chỉ dưới dạng con số tổng — không gắn với người xem cụ thể.</span><span class="i18n-en">Post statistics: views (the card was shown) and opens (a viewer opened the details), as totals only — not tied to any particular viewer.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Tên địa điểm bạn nhập được lưu vào danh mục địa điểm chung để gợi ý cho người đăng sau.</span><span class="i18n-en">Place names you enter are added to a shared place list used to suggest places to later posters.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Nhật ký kỹ thuật (địa chỉ IP, thời điểm yêu cầu) được hạ tầng xử lý trong thời gian ngắn để chống lạm dụng và giới hạn tần suất.</span><span class="i18n-en">Technical logs (IP address, request time) are processed briefly by the infrastructure to prevent abuse and enforce rate limits.</span></li></ul>
-				</section><section data-astro-cid-jgu32a3c>
-					<h2 data-astro-cid-jgu32a3c><span class="i18n-vi">2. Những gì công khai</span><span class="i18n-en">2. What is public</span></h2>
-					<p data-astro-cid-jgu32a3c><span class="i18n-vi">Mọi nội dung trong tin (kể cả thông tin liên hệ, địa chỉ và ghim bản đồ) hiện công khai cho bất kỳ ai xem trong thời gian tin chạy, và có thể được tìm thấy qua ô tìm kiếm. Số lượt hiện / lượt mở chỉ chủ tin thấy.</span><span class="i18n-en">Everything in a post (including contact details, address and map pin) is public to anyone viewing while the post runs, and can be found through the search box. View / open counts are visible only to the post owner.</span></p>
-				</section><section data-astro-cid-jgu32a3c>
-					<h2 data-astro-cid-jgu32a3c><span class="i18n-vi">3. Dữ liệu trên thiết bị của bạn</span><span class="i18n-en">3. Data on your device</span></h2>
-					<ul data-astro-cid-jgu32a3c><li data-astro-cid-jgu32a3c><span class="i18n-vi">Danh sách tin bạn đã xem được lưu ngay trong trình duyệt của bạn tới khi các tin đó hết hạn, để không chiếu lại tin cũ. Danh sách này không gửi về máy chủ.</span><span class="i18n-en">The list of posts you have seen is kept in your own browser until those posts expire, so old posts are not shown again. This list is not sent to our servers.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Lựa chọn nơi xem, bộ lọc, mức hiển thị được lưu trong trình duyệt; giao diện sáng / tối và ngôn ngữ lưu trong cookie, để lần sau mở lại đúng như cũ. Từ khoá tìm kiếm không được lưu.</span><span class="i18n-en">Your chosen place, filters and display level are kept in your browser, and light / dark mode and language in cookies, so the app reopens the same way. Search keywords are not stored.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Phiên đăng nhập được giữ trong trình duyệt để bạn không phải đăng nhập lại mỗi lần.</span><span class="i18n-en">Your sign-in session is kept in your browser so you do not have to sign in every time.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Xoá dữ liệu trang web trong trình duyệt sẽ xoá các mục trên.</span><span class="i18n-en">Clearing site data in your browser removes all of the above.</span></li></ul>
-				</section><section data-astro-cid-jgu32a3c>
-					<h2 data-astro-cid-jgu32a3c><span class="i18n-vi">4. Bên thứ ba</span><span class="i18n-en">4. Third parties</span></h2>
-					<ul data-astro-cid-jgu32a3c><li data-astro-cid-jgu32a3c><span class="i18n-vi">Ảnh bạn tải lên từ máy được lưu tại dịch vụ ImgBB và có đường link công khai; ảnh dán bằng URL được tải trực tiếp từ trang gốc. Video chỉ là đường link (vd YouTube) và được nhúng từ nơi gốc.</span><span class="i18n-en">Images you upload from your device are stored by the ImgBB service under a public link; images added by URL load directly from their source. Videos are links only (e.g. YouTube) embedded from their source.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Dịch vụ chạy trên hạ tầng Cloudflare (máy chủ và cơ sở dữ liệu). Đăng nhập dùng hệ thống tài khoản của chúng tôi.</span><span class="i18n-en">The service runs on Cloudflare infrastructure (servers and database). Sign-in uses our own account system.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Nút &quot;Bản đồ&quot; mở Google Maps theo địa chỉ hoặc ghim của tin; khi đó Google xử lý dữ liệu theo chính sách của họ.</span><span class="i18n-en">The &quot;Map&quot; button opens Google Maps at the post&#39;s address or pin; Google then processes data under its own policy.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Chúng tôi không dùng công cụ quảng cáo hay theo dõi của bên thứ ba trên trang.</span><span class="i18n-en">We do not use third-party advertising or tracking tools on the site.</span></li></ul>
-				</section><section data-astro-cid-jgu32a3c>
-					<h2 data-astro-cid-jgu32a3c><span class="i18n-vi">5. Thời gian lưu và xoá</span><span class="i18n-en">5. Retention and deletion</span></h2>
-					<ul data-astro-cid-jgu32a3c><li data-astro-cid-jgu32a3c><span class="i18n-vi">Tin chạy 24 giờ; hết hạn thì được giữ thêm 7 ngày (chỉ chủ tin thấy, để đăng lại) rồi bị xoá hẳn khỏi cơ sở dữ liệu bằng tác vụ tự động hằng ngày.</span><span class="i18n-en">A post runs for 24 hours; once expired it is kept 7 more days (visible only to its owner, for renewal) and then deleted from the database by a daily automatic job.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Bạn có thể ẩn hoặc xoá tin của mình bất cứ lúc nào trong &quot;Tin của tôi&quot;; xoá là xoá ngay và không khôi phục được.</span><span class="i18n-en">You can hide or delete your posts at any time in &quot;My posts&quot;; deleting is immediate and cannot be undone.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Ảnh đã tải lên ImgBB có thể vẫn truy cập được bằng đường link sau khi tin bị xoá.</span><span class="i18n-en">Images uploaded to ImgBB may remain reachable by their link after the post is deleted.</span></li></ul>
-				</section><section data-astro-cid-jgu32a3c>
-					<h2 data-astro-cid-jgu32a3c><span class="i18n-vi">6. Quyền của bạn</span><span class="i18n-en">6. Your rights</span></h2>
-					<p data-astro-cid-jgu32a3c><span class="i18n-vi">Bạn có quyền xem, sửa, ẩn và xoá tin của mình ngay trong ứng dụng. Theo pháp luật Việt Nam về bảo vệ dữ liệu cá nhân, bạn còn có quyền được biết, truy cập, đính chính, xoá, hạn chế và phản đối việc xử lý dữ liệu của mình — kể cả khi một tin của người khác chứa thông tin của bạn. Gửi yêu cầu tới kimthiendung@gmail.com; chúng tôi phản hồi trong thời hạn luật định.</span><span class="i18n-en">You can view, edit, hide and delete your posts right in the app. Under Vietnamese personal-data protection law you also have the right to be informed, to access, correct, delete, restrict and object to the processing of your data — including when someone else&#39;s post contains your information. Send requests to kimthiendung@gmail.com; we respond within the period the law sets.</span></p>
-				</section><section data-astro-cid-jgu32a3c>
-					<h2 data-astro-cid-jgu32a3c><span class="i18n-vi">7. Bảo mật và trẻ em</span><span class="i18n-en">7. Security and children</span></h2>
-					<ul data-astro-cid-jgu32a3c><li data-astro-cid-jgu32a3c><span class="i18n-vi">Dữ liệu luôn được mã hoá khi truyền (HTTPS); thông tin nhận dạng tài khoản không bao giờ hiện trong tin công khai.</span><span class="i18n-en">Data is always encrypted in transit (HTTPS); account identifiers never appear in public posts.</span></li><li data-astro-cid-jgu32a3c><span class="i18n-vi">Người dưới 18 tuổi chỉ được đăng tin khi có sự đồng ý của cha mẹ / người giám hộ. Nếu biết có dữ liệu của trẻ em được đăng không đúng, chúng tôi sẽ gỡ.</span><span class="i18n-en">People under 18 may post only with a parent&#39;s / guardian&#39;s consent. If we learn a child&#39;s data was posted improperly, we remove it.</span></li></ul>
-				</section><section data-astro-cid-jgu32a3c>
-					<h2 data-astro-cid-jgu32a3c><span class="i18n-vi">8. Thay đổi chính sách</span><span class="i18n-en">8. Changes to this policy</span></h2>
-					<p data-astro-cid-jgu32a3c><span class="i18n-vi">Khi chính sách thay đổi, bản mới được đăng tại trang này kèm ngày hiệu lực ở đầu trang.</span><span class="i18n-en">When this policy changes, the new version is published on this page with its effective date at the top.</span></p>
-				</section><section data-astro-cid-jgu32a3c>
-					<h2 data-astro-cid-jgu32a3c><span class="i18n-vi">9. Liên hệ</span><span class="i18n-en">9. Contact</span></h2>
-					<p data-astro-cid-jgu32a3c><span class="i18n-vi">XomSom do CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ THÔNG TIN GOLDEN KEY vận hành · Mã số thuế đang đăng ký · 670 Đoàn Văn Bơ, Khu phố 16, Phường Xóm Chiếu, TP. HCM · Email: kimthiendung@gmail.com.</span><span class="i18n-en">XomSom is run by GOLDEN KEY IT SOLUTIONS JOINT STOCK COMPANY · Tax code pending registration · 670 Đoàn Văn Bơ, Khu phố 16, Phường Xóm Chiếu, TP. HCM · Email: kimthiendung@gmail.com.</span></p>
+			<section data-astro-cid-kwdsvwav>
+					<h2 data-astro-cid-kwdsvwav>1. Dữ liệu chúng tôi xử lý</h2>
+					<ul data-astro-cid-kwdsvwav><li data-astro-cid-kwdsvwav>Tài khoản: khi bạn đăng nhập để đăng tin, chúng tôi nhận mã định danh tài khoản và email đăng nhập để biết tin nào là của bạn. Các thông tin này không bao giờ hiện cho người xem.</li><li data-astro-cid-kwdsvwav>Nội dung tin: loại tin, lĩnh vực, tiêu đề, mô tả, giá, đường link ảnh / video, thông tin liên hệ (điện thoại, Zalo, link), địa chỉ và ghim bản đồ nếu bạn chọn.</li><li data-astro-cid-kwdsvwav>Số liệu tin: lượt hiện (thẻ tin được hiển thị) và lượt mở (người xem mở chi tiết), chỉ dưới dạng con số tổng — không gắn với người xem cụ thể.</li><li data-astro-cid-kwdsvwav>Tên địa điểm bạn nhập được lưu vào danh mục địa điểm chung để gợi ý cho người đăng sau.</li><li data-astro-cid-kwdsvwav>Nhật ký kỹ thuật (địa chỉ IP, thời điểm yêu cầu) được hạ tầng xử lý trong thời gian ngắn để chống lạm dụng và giới hạn tần suất.</li></ul>
+				</section><section data-astro-cid-kwdsvwav>
+					<h2 data-astro-cid-kwdsvwav>2. Những gì công khai</h2>
+					<p data-astro-cid-kwdsvwav>Mọi nội dung trong tin (kể cả thông tin liên hệ, địa chỉ và ghim bản đồ) hiện công khai cho bất kỳ ai xem trong thời gian tin chạy, và có thể được tìm thấy qua ô tìm kiếm. Số lượt hiện / lượt mở chỉ chủ tin thấy.</p>
+				</section><section data-astro-cid-kwdsvwav>
+					<h2 data-astro-cid-kwdsvwav>3. Dữ liệu trên thiết bị của bạn</h2>
+					<ul data-astro-cid-kwdsvwav><li data-astro-cid-kwdsvwav>Danh sách tin bạn đã xem được lưu ngay trong trình duyệt của bạn tới khi các tin đó hết hạn, để không chiếu lại tin cũ. Danh sách này không gửi về máy chủ.</li><li data-astro-cid-kwdsvwav>Lựa chọn nơi xem, bộ lọc, mức hiển thị được lưu trong trình duyệt; giao diện sáng / tối và ngôn ngữ lưu trong cookie, để lần sau mở lại đúng như cũ. Từ khoá tìm kiếm không được lưu.</li><li data-astro-cid-kwdsvwav>Phiên đăng nhập được giữ trong trình duyệt để bạn không phải đăng nhập lại mỗi lần.</li><li data-astro-cid-kwdsvwav>Xoá dữ liệu trang web trong trình duyệt sẽ xoá các mục trên.</li></ul>
+				</section><section data-astro-cid-kwdsvwav>
+					<h2 data-astro-cid-kwdsvwav>4. Bên thứ ba</h2>
+					<ul data-astro-cid-kwdsvwav><li data-astro-cid-kwdsvwav>Ảnh bạn tải lên từ máy được lưu tại dịch vụ ImgBB và có đường link công khai; ảnh dán bằng URL được tải trực tiếp từ trang gốc. Video chỉ là đường link (vd YouTube) và được nhúng từ nơi gốc.</li><li data-astro-cid-kwdsvwav>Dịch vụ chạy trên hạ tầng Cloudflare (máy chủ và cơ sở dữ liệu). Đăng nhập dùng hệ thống tài khoản của chúng tôi.</li><li data-astro-cid-kwdsvwav>Nút &quot;Bản đồ&quot; mở Google Maps theo địa chỉ hoặc ghim của tin; khi đó Google xử lý dữ liệu theo chính sách của họ.</li><li data-astro-cid-kwdsvwav>Chúng tôi không dùng công cụ quảng cáo hay theo dõi của bên thứ ba trên trang.</li></ul>
+				</section><section data-astro-cid-kwdsvwav>
+					<h2 data-astro-cid-kwdsvwav>5. Thời gian lưu và xoá</h2>
+					<ul data-astro-cid-kwdsvwav><li data-astro-cid-kwdsvwav>Tin chạy 24 giờ; hết hạn thì được giữ thêm 7 ngày (chỉ chủ tin thấy, để đăng lại) rồi bị xoá hẳn khỏi cơ sở dữ liệu bằng tác vụ tự động hằng ngày.</li><li data-astro-cid-kwdsvwav>Bạn có thể ẩn hoặc xoá tin của mình bất cứ lúc nào trong &quot;Tin của tôi&quot;; xoá là xoá ngay và không khôi phục được.</li><li data-astro-cid-kwdsvwav>Ảnh đã tải lên ImgBB có thể vẫn truy cập được bằng đường link sau khi tin bị xoá.</li></ul>
+				</section><section data-astro-cid-kwdsvwav>
+					<h2 data-astro-cid-kwdsvwav>6. Quyền của bạn</h2>
+					<p data-astro-cid-kwdsvwav>Bạn có quyền xem, sửa, ẩn và xoá tin của mình ngay trong ứng dụng. Theo pháp luật Việt Nam về bảo vệ dữ liệu cá nhân, bạn còn có quyền được biết, truy cập, đính chính, xoá, hạn chế và phản đối việc xử lý dữ liệu của mình — kể cả khi một tin của người khác chứa thông tin của bạn. Gửi yêu cầu tới kimthiendung@gmail.com; chúng tôi phản hồi trong thời hạn luật định.</p>
+				</section><section data-astro-cid-kwdsvwav>
+					<h2 data-astro-cid-kwdsvwav>7. Bảo mật và trẻ em</h2>
+					<ul data-astro-cid-kwdsvwav><li data-astro-cid-kwdsvwav>Dữ liệu luôn được mã hoá khi truyền (HTTPS); thông tin nhận dạng tài khoản không bao giờ hiện trong tin công khai.</li><li data-astro-cid-kwdsvwav>Người dưới 18 tuổi chỉ được đăng tin khi có sự đồng ý của cha mẹ / người giám hộ. Nếu biết có dữ liệu của trẻ em được đăng không đúng, chúng tôi sẽ gỡ.</li></ul>
+				</section><section data-astro-cid-kwdsvwav>
+					<h2 data-astro-cid-kwdsvwav>8. Thay đổi chính sách</h2>
+					<p data-astro-cid-kwdsvwav>Khi chính sách thay đổi, bản mới được đăng tại trang này kèm ngày hiệu lực ở đầu trang.</p>
+				</section><section data-astro-cid-kwdsvwav>
+					<h2 data-astro-cid-kwdsvwav>9. Liên hệ</h2>
+					<p data-astro-cid-kwdsvwav>XomSom do CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ THÔNG TIN GOLDEN KEY vận hành · Mã số thuế đang đăng ký · 670 Đoàn Văn Bơ, Khu phố 16, Phường Xóm Chiếu, TP. HCM · Email: kimthiendung@gmail.com.</p>
 				</section>
 		</article>
 	</div>

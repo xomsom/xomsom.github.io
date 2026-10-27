@@ -2,14 +2,22 @@
 
 > XomSom — đăng tin quảng cáo miễn phí 24 giờ theo khu vực: cho thuê phòng trọ, mặt bằng, tuyển dụng việc làm, bán đồ cũ, xe máy, quảng cáo quán ăn, dịch vụ, sự kiện. Tin hiện cho người xem đúng tỉnh thành, phường xã và 21 lĩnh vực. Xem không cần tài khoản, tìm bằng tiếng Việt có dấu, không dấu hoặc tiếng Anh.
 
+> XomSom — free 24-hour local ads: rooms and shopfronts for rent, jobs and hiring, second-hand goods, motorbikes, restaurants, services and events. Posts reach viewers in the right province, ward and one of 21 industries. No account needed to browse; search in English or Vietnamese, with or without accents.
+
 XomSom (xomsom.com) ("Quảng cáo miễn phí" — free ads; also called a "dòng chảy quảng cáo", an ad flow) is a free 24-hour local ad board for Vietnam and other countries. Posts (products, services, events, jobs, rentals) run for 24 hours and are shown one by one, at random, to viewers of the chosen country / province / ward and industry, in the Atom web app, which is the home page itself. Viewing needs no account; posting is free (up to 3 running posts per account). Search understands Vietnamese with or without diacritics, and English.
+
+Every page has a Vietnamese version (the root: https://xomsom.com/) and an English version under /en/ (https://xomsom.com/en/).
 
 ## Pages
 
-- [Phòng trọ, việc làm, mua bán quanh bạn — đăng tin miễn phí](https://xomsom.com/): Xem tin cho thuê phòng trọ, việc làm, mua bán đồ cũ, dịch vụ và sự kiện đang chạy quanh bạn — chọn tỉnh thành, phường xã, lọc theo 21 lĩnh vực, tìm bằng tiếng Việt hoặc tiếng Anh. Đăng tin miễn phí, chạy 24 giờ.
-- [Giới thiệu XomSom](https://xomsom.com/atom/): Đăng tin miễn phí: cho thuê, tuyển dụng, mua bán theo phường xã
-- [Điều khoản sử dụng & quy định đăng tin XomSom](https://xomsom.com/atom/legal/terms/): XomSom (xomsom.com) và bảng tin Atom (xomsom.com/atom) là nơi đăng tin quảng cáo ngắn hạn do CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ THÔNG TIN GOLDEN KEY ("chúng tôi") vận hành: mỗi tin sản phẩm, dịch vụ, sự kiện, việc làm hay cho thuê chạy trong 24 giờ và hiện ngẫu nhiên cho người xem theo nơi chốn và lĩnh vực. Khi xem hoặc đăng tin, bạn đồng ý với các điều khoản này và Chính sách quyền riêng tư của XomSom.
-- [Chính sách quyền riêng tư XomSom](https://xomsom.com/atom/legal/privacy/): Chính sách này giải thích XomSom (xomsom.com) và bảng tin Atom thu thập, hiển thị, lưu giữ và xoá dữ liệu nào. Chúng tôi chỉ dùng dữ liệu để vận hành bảng tin — không bán dữ liệu và không dùng cho quảng cáo theo dõi.
+- [Đăng Tin Miễn Phí – Quảng Bá Dễ Dàng, Kết Nối Nhanh Chóng](https://xomsom.com/) (vi): Đăng tin rao vặt miễn phí, tìm phòng trọ, cho thuê nhà trọ, việc làm, tuyển dụng, mua bán nhà đất, xe cộ, điện thoại, đồ gia dụng và dịch vụ gần bạn. Lọc theo tỉnh thành, phường xã và 21 lĩnh vực. Hỗ trợ tiếng Việt, tiếng Anh.
+- [Giới thiệu XomSom](https://xomsom.com/atom/) (vi): Đăng tin miễn phí: cho thuê, tuyển dụng, mua bán theo phường xã
+- [Điều khoản sử dụng & quy định đăng tin XomSom](https://xomsom.com/atom/legal/terms/) (vi): XomSom (xomsom.com) và bảng tin Atom (xomsom.com/atom) là nơi đăng tin quảng cáo ngắn hạn do CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ THÔNG TIN GOLDEN KEY ("chúng tôi") vận hành: mỗi tin sản phẩm, dịch vụ, sự kiện, việc làm hay cho thuê chạy trong 24 giờ và hiện ngẫu nhiên cho người xem theo nơi chốn và lĩnh vực. Khi xem hoặc đăng tin, bạn đồng ý với các điều khoản này và Chính sách quyền riêng tư của XomSom.
+- [Chính sách quyền riêng tư XomSom](https://xomsom.com/atom/legal/privacy/) (vi): Chính sách này giải thích XomSom (xomsom.com) và bảng tin Atom thu thập, hiển thị, lưu giữ và xoá dữ liệu nào. Chúng tôi chỉ dùng dữ liệu để vận hành bảng tin — không bán dữ liệu và không dùng cho quảng cáo theo dõi.
+- [Post Ads for Free – Easy Promotion, Fast Connections](https://xomsom.com/en/) (en): Post free classified ads and find rental rooms, apartments, jobs, recruitment, real estate, vehicles, phones, home appliances, local services and events near you. Browse 21 categories by city, province or ward. Available in English and Vietnamese.
+- [About XomSom](https://xomsom.com/en/atom/) (en): Free classified ads: rentals, jobs, buy & sell by ward and city
+- [XomSom Terms of Use & Posting Rules](https://xomsom.com/en/atom/legal/terms/) (en): XomSom (xomsom.com) and its Atom board (xomsom.com/atom) are a short-lived ad board run by GOLDEN KEY IT SOLUTIONS JOINT STOCK COMPANY ("we", "us"): each product, service, event, job or rental post runs for 24 hours and is shown at random to viewers by place and industry. By viewing or posting you agree to these terms and the XomSom Privacy Policy.
+- [XomSom Privacy Policy](https://xomsom.com/en/atom/legal/privacy/) (en): This policy explains which data XomSom (xomsom.com) and its Atom board collect, display, keep and delete. We use data only to run the post board — we do not sell data or use it for tracking ads.
 
 ## Key facts
 
