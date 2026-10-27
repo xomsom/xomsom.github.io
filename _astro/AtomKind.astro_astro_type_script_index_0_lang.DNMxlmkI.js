@@ -1,0 +1,1 @@
+import"./iconify-icon.BQKUsOMK.js";

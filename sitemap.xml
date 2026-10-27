@@ -68,4 +68,84 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+  <url>
+    <loc>https://xomsom.com/cho-thue/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://xomsom.com/cho-thue/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xomsom.com/en/rentals/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xomsom.com/cho-thue/"/>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xomsom.com/en/rentals/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://xomsom.com/cho-thue/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xomsom.com/en/rentals/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xomsom.com/cho-thue/"/>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xomsom.com/viec-lam/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://xomsom.com/viec-lam/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xomsom.com/en/jobs/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xomsom.com/viec-lam/"/>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xomsom.com/en/jobs/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://xomsom.com/viec-lam/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xomsom.com/en/jobs/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xomsom.com/viec-lam/"/>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xomsom.com/mua-ban/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://xomsom.com/mua-ban/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xomsom.com/en/buy-sell/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xomsom.com/mua-ban/"/>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xomsom.com/en/buy-sell/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://xomsom.com/mua-ban/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xomsom.com/en/buy-sell/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xomsom.com/mua-ban/"/>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xomsom.com/dich-vu/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://xomsom.com/dich-vu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xomsom.com/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xomsom.com/dich-vu/"/>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xomsom.com/en/services/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://xomsom.com/dich-vu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xomsom.com/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xomsom.com/dich-vu/"/>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xomsom.com/su-kien/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://xomsom.com/su-kien/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xomsom.com/en/events/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xomsom.com/su-kien/"/>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xomsom.com/en/events/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://xomsom.com/su-kien/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xomsom.com/en/events/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xomsom.com/su-kien/"/>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
