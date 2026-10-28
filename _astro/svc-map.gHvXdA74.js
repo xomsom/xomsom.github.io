@@ -1,0 +1,1 @@
+import{t as s}from"./atom-shell.Dh11qTnu.js";customElements.get("svc-map")||customElements.define("svc-map",class extends s{static views=["map"]});

@@ -1,8 +1,8 @@
 # XomSom
 
-> XomSom — đăng tin quảng cáo miễn phí 24 giờ theo khu vực: cho thuê phòng trọ, mặt bằng, tuyển dụng việc làm, bán đồ cũ, xe máy, quảng cáo quán ăn, dịch vụ, sự kiện. Tin hiện cho người xem đúng tỉnh thành, phường xã và 21 lĩnh vực. Xem không cần tài khoản, tìm bằng tiếng Việt có dấu, không dấu hoặc tiếng Anh.
+> XomSom — đăng tin quảng cáo miễn phí 24 giờ theo khu vực: cho thuê phòng trọ, mặt bằng, tuyển dụng việc làm, bán đồ cũ, xe máy, quảng cáo quán ăn, dịch vụ, sự kiện. Tin hiện cho người xem đúng tỉnh thành, phường xã và 21 lĩnh vực — xem trên buồng 3D, bản đồ 34 tỉnh thành hoặc lưới ngành. Xem không cần tài khoản, tìm bằng tiếng Việt có dấu, không dấu hoặc tiếng Anh.
 
-> XomSom — free 24-hour local ads: rooms and shopfronts for rent, jobs and hiring, second-hand goods, motorbikes, restaurants, services and events. Posts reach viewers in the right province, ward and one of 21 industries. No account needed to browse; search in English or Vietnamese, with or without accents.
+> XomSom — free 24-hour local ads: rooms and shopfronts for rent, jobs and hiring, second-hand goods, motorbikes, restaurants, services and events. Posts reach viewers in the right province, ward and one of 21 industries — browse them in a 3D chamber, on a map of Vietnam’s 34 provinces or in an industry grid. No account needed; search in English or Vietnamese, with or without accents.
 
 XomSom (xomsom.com) ("Quảng cáo miễn phí" — free ads; also called a "dòng chảy quảng cáo", an ad flow) is a free 24-hour local ad board for Vietnam and other countries. Posts (products, services, events, jobs, rentals) run for 24 hours and are shown one by one, at random, to viewers of the chosen country / province / ward and industry, in the Atom web app, which is the home page itself. Viewing needs no account; posting is free (up to 3 running posts per account). Search understands Vietnamese with or without diacritics, and English.
 
@@ -10,7 +10,9 @@ Every page has a Vietnamese version (the root: https://xomsom.com/) and an Engli
 
 ## Pages
 
-- [Đăng Tin Miễn Phí – Quảng Bá Dễ Dàng, Kết Nối Nhanh Chóng](https://xomsom.com/) (vi): Đăng tin rao vặt miễn phí, tìm phòng trọ, cho thuê nhà trọ, việc làm, tuyển dụng, mua bán nhà đất, xe cộ, điện thoại, đồ gia dụng và dịch vụ gần bạn. Lọc theo tỉnh thành, phường xã và 21 lĩnh vực. Hỗ trợ tiếng Việt, tiếng Anh.
+- [Đăng Tin Miễn Phí – Quảng Bá Dễ Dàng, Kết Nối Nhanh Chóng](https://xomsom.com/) (vi): Đăng tin rao vặt miễn phí, tìm phòng trọ, cho thuê nhà trọ, việc làm, tuyển dụng, mua bán nhà đất, xe cộ, điện thoại, đồ gia dụng và dịch vụ gần bạn. Lọc theo tỉnh thành, phường xã và 21 lĩnh vực; xem trên buồng 3D, bản đồ hoặc lưới ngành. Hỗ trợ tiếng Việt, tiếng Anh.
+- [Bản Đồ Tin Rao Vặt – Địa Cầu & 34 Tỉnh Thành Việt Nam](https://xomsom.com/atom/map/) (vi): Xem tin rao vặt, cho thuê, việc làm, mua bán và dịch vụ trên địa cầu: nước có tin sáng lên, phóng vào Việt Nam để thấy 34 tỉnh thành mới (từ 07/2025), bấm tỉnh rồi phường xã để xem tin gần bạn. Lăn chuột hoặc chụm 2 ngón để phóng to. Đăng tin miễn phí 24 giờ.
+- [Tin Rao Vặt Theo Ngành Nghề – Lưới 21 Lĩnh Vực](https://xomsom.com/atom/grid/) (vi): Xem mọi tin đang chạy xếp theo 21 lĩnh vực: mỗi ngành một khối có icon và màu riêng, ngành nhiều tin khối lớn hơn, kèm ảnh, giá, nơi đăng và thời gian còn lại. Bấm một ngành để xem hết tin của ngành đó và đăng tin mới ngay trong ngành. Lọc theo tỉnh thành, phường xã.
 - [Giới thiệu XomSom](https://xomsom.com/atom/) (vi): Đăng tin miễn phí: cho thuê, tuyển dụng, mua bán theo phường xã
 - [Cho thuê phòng trọ, nhà, mặt bằng — đăng tin miễn phí](https://xomsom.com/cho-thue/) (vi): Đăng tin cho thuê phòng trọ, nhà nguyên căn, căn hộ, mặt bằng, xe, thiết bị miễn phí. Tin chạy 24 giờ, hiện cho người đang tìm ở đúng tỉnh thành, phường xã, kèm ghim bản đồ mở Google Maps.
 - [Việc làm gần nhà, tuyển dụng gấp — đăng tin tuyển dụng miễn phí](https://xomsom.com/viec-lam/) (vi): Đăng tin tuyển dụng miễn phí: tuyển gấp, việc thời vụ, bán thời gian, phục vụ, bán hàng, giao hàng. Người tìm việc chọn phường xã nơi mình ở để thấy việc gần nhà trước. Tin chạy 24 giờ.
@@ -19,7 +21,9 @@ Every page has a Vietnamese version (the root: https://xomsom.com/) and an Engli
 - [Sự kiện, khai trương, khuyến mãi gần bạn — đăng tin miễn phí](https://xomsom.com/su-kien/) (vi): Đăng tin sự kiện miễn phí: khai trương, khuyến mãi, hội chợ, workshop, chợ phiên, hoạt động cộng đồng. Tin 24 giờ hiện cho người ở đúng khu vực — hợp với điều sắp diễn ra.
 - [Điều khoản sử dụng & quy định đăng tin XomSom](https://xomsom.com/atom/legal/terms/) (vi): XomSom (xomsom.com) và bảng tin Atom (xomsom.com/atom) là nơi đăng tin quảng cáo ngắn hạn do CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ THÔNG TIN GOLDEN KEY ("chúng tôi") vận hành: mỗi tin sản phẩm, dịch vụ, sự kiện, việc làm hay cho thuê chạy trong 24 giờ và hiện ngẫu nhiên cho người xem theo nơi chốn và lĩnh vực. Khi xem hoặc đăng tin, bạn đồng ý với các điều khoản này và Chính sách quyền riêng tư của XomSom.
 - [Chính sách quyền riêng tư XomSom](https://xomsom.com/atom/legal/privacy/) (vi): Chính sách này giải thích XomSom (xomsom.com) và bảng tin Atom thu thập, hiển thị, lưu giữ và xoá dữ liệu nào. Chúng tôi chỉ dùng dữ liệu để vận hành bảng tin — không bán dữ liệu và không dùng cho quảng cáo theo dõi.
-- [Post Ads for Free – Easy Promotion, Fast Connections](https://xomsom.com/en/) (en): Post free classified ads and find rental rooms, apartments, jobs, recruitment, real estate, vehicles, phones, home appliances, local services and events near you. Browse 21 categories by city, province or ward. Available in English and Vietnamese.
+- [Post Ads for Free – Easy Promotion, Fast Connections](https://xomsom.com/en/) (en): Post free classified ads and find rental rooms, apartments, jobs, recruitment, real estate, vehicles, phones, home appliances, local services and events near you. Browse 21 categories by city, province or ward — in a 3D chamber, on a map or in an industry grid. In English and Vietnamese.
+- [Ads Map – A Globe and Vietnam’s 34 Provinces](https://xomsom.com/en/atom/map/) (en): Browse classified ads, rentals, jobs, sales and services on a globe: countries with posts light up; zoom into Vietnam to see its 34 provinces (since 07/2025), then click a province and a ward for posts near you. Scroll or pinch to zoom. Post for free for 24 hours.
+- [Classified Ads by Industry – A Grid of 21 Industries](https://xomsom.com/en/atom/grid/) (en): See every running post grouped into 21 industries: each industry gets its own block with an icon and colour, busier industries get bigger blocks, with photos, prices, places and time left. Click an industry to see all its posts and post a new one right there. Filter by province and ward.
 - [About XomSom](https://xomsom.com/en/atom/) (en): Free classified ads: rentals, jobs, buy & sell by ward and city
 - [Rooms, houses & shopfronts for rent — free listings](https://xomsom.com/en/rentals/) (en): List rooms, whole houses, flats, shopfronts, vehicles and equipment for rent, for free. Each post runs 24 hours for people looking in the right province and ward, with a map pin that opens in Google Maps.
 - [Jobs near you & urgent hiring — post a job for free](https://xomsom.com/en/jobs/) (en): Post jobs for free: urgent hires, seasonal and part-time work, waiters, sales staff, delivery riders. Job seekers pick the ward they live in to see nearby work first. Each post runs 24 hours.
@@ -35,9 +39,16 @@ Every page has a Vietnamese version (the root: https://xomsom.com/) and an Engli
 - Limits: up to 3 running posts per account; up to 6 images and 1 video per post.
 - Kinds: product, service, event, job, rental. 21 industries.
 - Place: country → province → ward, plus street address and optional map pin (opens Google Maps).
+- Three ways to browse the same posts: Default (3D chamber with a dotted globe), Map (globe → Vietnam’s 34 provinces since 07/2025, mouse-wheel / pinch zoom) and Industry grid (posts grouped by the 21 industries). Each has its own URL: /, /atom/map/, /atom/grid/ (English under /en/).
 - Cards show 12 seconds each; the next opens at the halfway mark; ⏸ keeps a card.
 - Price: free to post and to view. No third-party tracking ads.
 - Operator: GOLDEN KEY IT SOLUTIONS JOINT STOCK COMPANY — 670 Đoàn Văn Bơ, Khu phố 16, Phường Xóm Chiếu, TP. HCM. Contact: kimthiendung@gmail.com.
+
+## Ba cách xem tin (views)
+
+- **[Mặc định — buồng 3D](https://xomsom.com/)** (Default — 3D chamber) — Khám phá những tin rao vặt mới nhất và quảng cáo trực quan miễn phí trong không gian 3D sống động. Tin đăng lần lượt xuất hiện quanh quả địa cầu chấm, sao chổi dẫn lối đến từng khu vực và thẻ thông tin hiển thị ngay bên cạnh, giúp bạn nhanh chóng khám phá sản phẩm, dịch vụ, cơ hội mua bán và quảng cáo mới. Xoay quả địa cầu để tìm tin ở nhiều khu vực, chọn vùng địa lý để khám phá sâu hơn theo tỉnh, thành phố, phường, xã. Dễ dàng giới thiệu sản phẩm, quảng bá dịch vụ và tiếp cận khách hàng bằng cách đăng tin miễn phí, trực quan và nổi bật trên bản đồ tương tác. Kéo để xoay không gian 3D hoặc quả địa cầu; chọn khu vực để xem tin chi tiết; phóng to quả địa cầu để chuyển sang Bản đồ.
+- **[Bản đồ — địa cầu & 34 tỉnh thành](https://xomsom.com/atom/map/)** (Map — globe & 34 provinces) — Tìm đúng tin rao vặt, sản phẩm, dịch vụ và quảng cáo ngay tại khu vực bạn quan tâm với bản đồ 3D tương tác. Khám phá quả địa cầu, nhận biết các quốc gia có tin đăng và phóng to Việt Nam để tìm kiếm theo 34 tỉnh, thành phố theo đơn vị hành chính từ tháng 7/2025. Tiếp tục chọn tỉnh, thành phố rồi đến phường, xã để tiếp cận các tin mua bán, nhà đất, cho thuê, việc làm, dịch vụ và quảng cáo phù hợp với nhu cầu và địa điểm của bạn. Các tỉnh, thành được hiển thị thành những khối 3D trực quan, giúp bạn dễ dàng xác định khu vực muốn tìm kiếm thay vì phải lọc qua những tin đăng không liên quan. Tương tác trực tiếp với bản đồ bằng cách kéo để xoay hoặc di chuyển, lăn chuột hay chụm hai ngón tay để phóng to, thu nhỏ. Thu nhỏ toàn bộ để quay lại không gian địa cầu 3D và tiếp tục khám phá tin đăng ở những khu vực khác.
+- **[Lưới ngành — 21 lĩnh vực](https://xomsom.com/atom/grid/)** (Industry grid — 21 industries) — Khám phá tin rao vặt, quảng cáo và cơ hội mua bán theo 21 ngành nghề: thực phẩm và đồ uống, hàng tiêu dùng nhanh, mỹ phẩm và làm đẹp, thời trang và dệt may, bán lẻ và thương mại điện tử, công nghệ và phần mềm, điện tử và viễn thông, tài chính và ngân hàng, bất động sản và xây dựng, y tế và dược phẩm, giáo dục và đào tạo, du lịch và khách sạn, ô tô và xe máy, nông nghiệp và thủy sản, logistics và vận tải, bao bì và in ấn, nội thất và đồ gia dụng, năng lượng và môi trường, sản xuất và cơ khí, dịch vụ doanh nghiệp và dịch vụ chuyên nghiệp, cùng các ngành nghề khác. Mỗi ngành được hiển thị thành một khối trực quan với biểu tượng và màu sắc riêng; ngành có nhiều tin đăng sẽ có khối lớn hơn. Dễ dàng khám phá tin mua bán sản phẩm, đăng bán hàng hóa, cho thuê, tìm dịch vụ, xem giá, hình ảnh, địa điểm và thời gian còn lại của tin đăng. Chọn ngành phù hợp để xem các tin rao vặt, quảng cáo liên quan hoặc đăng tin mới đúng danh mục.
 
 ## Loại tin
 
@@ -125,6 +136,14 @@ Trên XomSom: chọn loại tin "Cho thuê", lĩnh vực "BĐS & xây dựng", n
 ### XomSom có những lĩnh vực nào?
 
 21 lĩnh vực: Thực phẩm & đồ uống, Hàng tiêu dùng nhanh, Mỹ phẩm & làm đẹp, Dệt may & thời trang, Bán lẻ & TMĐT, Công nghệ & phần mềm, Điện tử & viễn thông, Tài chính & ngân hàng, BĐS & xây dựng, Y tế & dược, Giáo dục, Du lịch & khách sạn, Ô tô & xe máy, Nông nghiệp, Logistics & vận tải, Bao bì & in ấn, Nội thất & gia dụng, Năng lượng & môi trường, Sản xuất & cơ khí, Dịch vụ chuyên nghiệp, Khác.
+
+### Có xem tin trên bản đồ được không?
+
+Có. Giao diện "Bản đồ" (xomsom.com/atom/map/) là một địa cầu chấm: nước có tin sáng lên. Phóng vào Việt Nam để thấy 34 tỉnh thành mới (từ 07/2025) nổi khối, tin rơi xuống đúng tỉnh; bấm tỉnh rồi phường xã để xem gần hơn. Lăn chuột hoặc chụm 2 ngón để phóng to / thu nhỏ, kéo để xoay địa cầu. Ở giao diện Mặc định, phóng vào địa cầu ở giữa buồng cũng chuyển sang bản đồ.
+
+### Lưới ngành là gì?
+
+Giao diện "Lưới ngành" (xomsom.com/atom/grid/) xếp mọi tin đang chạy thành từng khối theo 21 lĩnh vực, mỗi ngành một icon và màu riêng, ngành nhiều tin thì khối lớn hơn, kèm ảnh, giá, nơi đăng và thời gian còn lại. Bấm một ngành để xem hết tin của ngành đó và đăng tin mới ngay trong ngành; bảng "Lĩnh vực" ở góc phải buồng 3D và bản đồ cũng mở thẳng lưới của từng ngành.
 
 ### Máy yếu có xem được không?
 

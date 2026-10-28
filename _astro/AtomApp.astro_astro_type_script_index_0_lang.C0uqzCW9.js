@@ -1,1 +1,0 @@
-import{t as s}from"./web-toast.7xdMweAa.js";customElements.get("svc-atom")||customElements.define("svc-atom",class extends s{});

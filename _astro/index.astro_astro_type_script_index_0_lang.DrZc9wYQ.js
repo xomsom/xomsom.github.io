@@ -1,1 +1,0 @@
-import{t as s}from"./web-toast.7xdMweAa.js";customElements.get("svc-map")||customElements.define("svc-map",class extends s{static views=["map"]});
