@@ -1,1 +1,0 @@
-import{t as s}from"./atom-shell.BVPvrTjw.js";customElements.get("svc-grid")||customElements.define("svc-grid",class extends s{static views=["bento"]});
