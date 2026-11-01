@@ -1,0 +1,1 @@
+import{I as t}from"./web-text.CJHuvrFg.js";import{t as s}from"./atom-shell.Bn2tAYkz.js";var e=t({SvcAtom:()=>m,default:()=>m}),m=class extends s{};customElements.get("svc-atom")||customElements.define("svc-atom",m);export{e as t};
